@@ -215,6 +215,58 @@ export function applyCommand(state: RoomState, envelope: CommandEnvelope, ctx: C
     return ok(next, ctx, [ev(state, ctx, "answerer_selected", envelope.actorId, { playerId: cmd.playerId })]);
   }
 
+  // Judging + cards
+  if (type === "judge:markCorrect" || type === "judge:markWrong") {
+    if (state.state !== "answering" || !state.answererId) return reject("wrong_state");
+    const next = structuredClone(state);
+    const player = next.players.find((p) => p.id === next.answererId);
+    if (!player) return reject("invalid_payload");
+    const correct = type === "judge:markCorrect";
+    if (correct) player.score = applyScore(player.score, next.settings.pointsPerCorrect, next.settings);
+    if (correct && next.salem?.state === "active") {
+      next.state = "card_action";
+    } else if (correct) {
+      next.state = "result";
+    } else {
+      if (next.salem?.state === "active") {
+        const owner = next.players.find((p) => p.id === next.salem!.ownerId);
+        if (owner) owner.score = applyScore(owner.score, next.settings.salem.ownerPenaltyOnWrong, next.settings);
+        next.salem = null;
+        next.state = "result";
+      } else {
+        next.state = "card_action";
+      }
+    }
+    return ok(next, ctx, [ev(state, ctx, "answer_judged", envelope.actorId, { playerId: player.id, correct, delta: correct ? next.settings.pointsPerCorrect : 0 })]);
+  }
+  if (type === "judge:playCard") {
+    if (state.state !== "card_action") return reject("wrong_state");
+    const next = structuredClone(state);
+    const player = next.players.find((p) => p.id === cmd.playerId);
+    if (!player) return reject("invalid_payload");
+    const delta = cmd.card === "yellow" ? next.settings.yellowPenalty : next.settings.redPenalty;
+    player.score = applyScore(player.score, delta, next.settings);
+    next.round.cards = [...next.round.cards, { playerId: cmd.playerId, card: cmd.card }];
+    next.usedCards = [...next.usedCards, { playerId: cmd.playerId, card: cmd.card }];
+    next.state = "result";
+    return ok(next, ctx, [ev(state, ctx, "card_played", envelope.actorId, { playerId: cmd.playerId, card: cmd.card, delta })]);
+  }
+  if (type === "judge:adjustScore") {
+    if (!["result", "next_question"].includes(state.state)) return reject("wrong_state");
+    if (!cmd.reason.trim() || cmd.delta === 0) return reject("invalid_payload");
+    const next = structuredClone(state);
+    const player = next.players.find((p) => p.id === cmd.playerId);
+    if (!player) return reject("invalid_payload");
+    player.score = applyScore(player.score, cmd.delta, next.settings);
+    return ok(next, ctx, [ev(state, ctx, "score_adjusted", envelope.actorId, { playerId: cmd.playerId, delta: cmd.delta, reason: cmd.reason })]);
+  }
+  if (type === "judge:endQuestion") {
+    if (state.state !== "card_action") return reject("wrong_state");
+    const next = structuredClone(state);
+    next.state = "result";
+    return ok(next, ctx, [ev(state, ctx, "answer_judged", envelope.actorId, { ended: true })]);
+  }
+
   // Placeholder handlers for later tasks
   return reject("wrong_state", "not implemented yet");
 }
