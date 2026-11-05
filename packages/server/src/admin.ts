@@ -1,4 +1,5 @@
-import { Router, timingSafeEqual } from "express";
+import { Router } from "express";
+import { timingSafeEqual } from "node:crypto";
 import { validateQuestion } from "@casino/shared";
 import type { MemoryQuestionRepository } from "./questions/memoryRepository";
 
