@@ -132,6 +132,14 @@ export function applyCommand(state: RoomState, envelope: CommandEnvelope, ctx: C
   }
   if (type === "judge:startQuestion") {
     if (state.state !== "question_setup") return reject("wrong_state");
+    if (state.salem?.state === "active" && state.roundKind === "buzzer") {
+      if (!state.currentQuestion) return reject("wrong_phase", "no question");
+      const next = structuredClone(state);
+      next.state = "answering";
+      next.answererId = next.settings.salem.answerer === "owner" ? next.salem.ownerId : next.salem.targetId;
+      next.buzzer = { isOpen: false, openedAt: ctx.at, deadline: null, presses: [] };
+      return ok(next, ctx, [ev(state, ctx, "question_started", envelope.actorId, { salem: true })]);
+    }
     if (state.roundKind === "bus" || state.roundKind === "letter_race") {
       if (!state.busLetter) return reject("wrong_phase", "letter required");
       const next = structuredClone(state);
@@ -222,8 +230,9 @@ export function applyCommand(state: RoomState, envelope: CommandEnvelope, ctx: C
     const player = next.players.find((p) => p.id === next.answererId);
     if (!player) return reject("invalid_payload");
     const correct = type === "judge:markCorrect";
-    if (correct) player.score = applyScore(player.score, next.settings.pointsPerCorrect, next.settings);
-    if (correct && next.salem?.state === "active") {
+    const salemActive = next.salem?.state === "active";
+    if (correct && !salemActive) player.score = applyScore(player.score, next.settings.pointsPerCorrect, next.settings);
+    if (correct && salemActive) {
       next.state = "card_action";
     } else if (correct) {
       next.state = "result";
@@ -340,6 +349,19 @@ export function applyCommand(state: RoomState, envelope: CommandEnvelope, ctx: C
       next.resumeState = null;
     }
     return ok(next, ctx, [ev(state, ctx, "game_started", envelope.actorId, { [type]: true })]);
+  }
+
+  // Salem target choice
+  if (type === "player:chooseSalemTarget") {
+    if (state.state !== "card_action") return reject("wrong_state");
+    const next = structuredClone(state);
+    // owner answering state is card_action after markCorrect with salem consumed marker in round? Use answerer as owner proxy
+    if (next.answererId === null) return reject("wrong_state");
+    const target = next.players.find((p) => p.id === cmd.targetId);
+    if (!target) return reject("invalid_payload");
+    target.score = applyScore(target.score, next.settings.salem.targetPenalty, next.settings);
+    next.state = "result";
+    return ok(next, ctx, [ev(state, ctx, "powerup_resolved", envelope.actorId, { salemTarget: cmd.targetId })]);
   }
 
   // Placeholder handlers for later tasks
