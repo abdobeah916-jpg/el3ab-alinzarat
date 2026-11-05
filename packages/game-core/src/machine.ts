@@ -1,5 +1,5 @@
 ﻿import type { CommandEnvelope, GameEvent, PlayerState, RejectCode, RoomState } from "@casino/shared";
-import { MAX_PLAYERS, POWERUP_KEYS } from "@casino/shared";
+import { MAX_PLAYERS, POWERUP_KEYS, normalizeAnswer } from "@casino/shared";
 
 export type CommandResult = { ok: true; state: RoomState; events: GameEvent[] } | { ok: false; code: RejectCode; message: string };
 export type Ctx = { at: number; seq: number };
@@ -362,6 +362,218 @@ export function applyCommand(state: RoomState, envelope: CommandEnvelope, ctx: C
     target.score = applyScore(target.score, next.settings.salem.targetPenalty, next.settings);
     next.state = "result";
     return ok(next, ctx, [ev(state, ctx, "powerup_resolved", envelope.actorId, { salemTarget: cmd.targetId })]);
+  }
+
+  // Bus / letter / rumble
+  if (type === "judge:setBusLetter") {
+    if (state.state !== "question_setup") return reject("wrong_state");
+    if (!["bus", "letter_race"].includes(state.roundKind)) return reject("wrong_state");
+    const letter = cmd.letter.trim().slice(0, 2);
+    if (!letter) return reject("invalid_payload");
+    const next = structuredClone(state);
+    next.busLetter = letter;
+    return ok(next, ctx, [ev(state, ctx, "question_selected", envelope.actorId, { letter })]);
+  }
+  if (type === "player:submitRound") {
+    if (state.state !== "simultaneous_active") return reject("wrong_phase");
+    if (state.submissions.some((s) => s.playerId === envelope.actorId)) return reject("already_used");
+    const player = state.players.find((p) => p.id === envelope.actorId);
+    if (!player || player.isEliminated) return reject("not_allowed");
+    const payload = cmd.payload;
+    if (payload.kind === "bus") {
+      if (state.roundKind !== "bus") return reject("wrong_state");
+      const cats = state.settings.busCategories;
+      for (const [k, v] of Object.entries(payload.answers)) {
+        if (!cats.includes(k) || !v.trim() || v.length > 60) return reject("invalid_payload");
+      }
+      const next = structuredClone(state);
+      next.submissions.push({ playerId: envelope.actorId, payload: { kind: "bus", answers: { ...payload.answers } } });
+      return ok(next, ctx, [ev(state, ctx, "submission_judged", envelope.actorId, { playerId: envelope.actorId })]);
+    }
+    if (payload.kind === "letter_race") {
+      if (state.roundKind !== "letter_race") return reject("wrong_state");
+      const seen = new Set<string>();
+      const words: string[] = [];
+      for (const w of payload.words) {
+        const t = w.trim();
+        if (!t || t.length > 30) continue;
+        const key = t.toLowerCase();
+        if (seen.has(key)) continue;
+        seen.add(key);
+        words.push(t);
+      }
+      if (words.length === 0) return reject("invalid_payload");
+      const next = structuredClone(state);
+      const trimmed = words.slice(0, 50);
+      next.submissions.push({ playerId: envelope.actorId, payload: { kind: "letter_race", words: trimmed }, acceptedWords: trimmed.map(() => false) });
+      return ok(next, ctx, [ev(state, ctx, "submission_judged", envelope.actorId, { playerId: envelope.actorId })]);
+    }
+    if (payload.kind === "rumble") {
+      if (state.roundKind !== "rumble") return reject("wrong_state");
+      if (!payload.answer.trim() || payload.answer.length > 60) return reject("invalid_payload");
+      const next = structuredClone(state);
+      next.submissions.push({ playerId: envelope.actorId, payload: { kind: "rumble", answer: payload.answer.trim() } });
+      return ok(next, ctx, [ev(state, ctx, "submission_judged", envelope.actorId, { playerId: envelope.actorId })]);
+    }
+    return reject("invalid_payload");
+  }
+  if (type === "player:callBus") {
+    if (state.state !== "simultaneous_active" || state.roundKind !== "bus") return reject("wrong_phase");
+    const next = structuredClone(state);
+    next.state = "submissions_closed";
+    next.submissionsClosedAt = ctx.at;
+    return ok(next, ctx, [ev(state, ctx, "submissions_closed", envelope.actorId, { by: envelope.actorId })]);
+  }
+  if (type === "judge:closeSubmissions") {
+    if (state.state !== "simultaneous_active") return reject("wrong_state");
+    const next = structuredClone(state);
+    next.state = "submissions_closed";
+    next.submissionsClosedAt = ctx.at;
+    return ok(next, ctx, [ev(state, ctx, "submissions_closed", envelope.actorId, {})]);
+  }
+  if (type === "judge:openReveal") {
+    if (state.state !== "submissions_closed") return reject("wrong_state");
+    const next = structuredClone(state);
+    next.state = "reveal";
+    return ok(next, ctx, [ev(state, ctx, "submission_judged", envelope.actorId, {})]);
+  }
+  if (type === "judge:judgeBusCell") {
+    if (state.state !== "reveal") return reject("wrong_state");
+    const next = structuredClone(state);
+    const sub = next.submissions.find((s) => s.playerId === cmd.playerId);
+    if (!sub || sub.payload.kind !== "bus") return reject("invalid_payload");
+    if (!sub.acceptedCells) sub.acceptedCells = {};
+    const was = sub.acceptedCells[cmd.category] === true;
+    const player = next.players.find((p) => p.id === cmd.playerId);
+    if (!player) return reject("invalid_payload");
+    if (cmd.accepted && !was) player.score = applyScore(player.score, next.settings.pointsPerCorrect, next.settings);
+    if (!cmd.accepted && was) player.score = applyScore(player.score, -next.settings.pointsPerCorrect, next.settings);
+    sub.acceptedCells[cmd.category] = cmd.accepted;
+    return ok(next, ctx, [ev(state, ctx, "submission_judged", envelope.actorId, { playerId: cmd.playerId, category: cmd.category, accepted: cmd.accepted })]);
+  }
+  if (type === "judge:judgeWord") {
+    if (state.state !== "reveal") return reject("wrong_state");
+    const next = structuredClone(state);
+    const sub = next.submissions.find((s) => s.playerId === cmd.playerId);
+    if (!sub || sub.payload.kind !== "letter_race") return reject("invalid_payload");
+    if (!sub.acceptedWords) sub.acceptedWords = sub.payload.words.map(() => false);
+    const idx = cmd.wordIndex;
+    if (idx < 0 || idx >= sub.payload.words.length) return reject("invalid_payload");
+    const was = sub.acceptedWords[idx] === true;
+    const player = next.players.find((p) => p.id === cmd.playerId);
+    if (!player) return reject("invalid_payload");
+    if (cmd.accepted && !was) {
+      const acceptedCount = sub.acceptedWords.filter(Boolean).length + 1;
+      const capped = Math.min(acceptedCount, next.settings.letterRaceMaxPoints);
+      const prevCapped = Math.min(sub.acceptedWords.filter(Boolean).length, next.settings.letterRaceMaxPoints);
+      player.score = applyScore(player.score, capped - prevCapped, next.settings);
+    } else if (!cmd.accepted && was) {
+      const prevCapped = Math.min(sub.acceptedWords.filter(Boolean).length, next.settings.letterRaceMaxPoints);
+      const nextCount = sub.acceptedWords.filter(Boolean).length - 1;
+      const capped = Math.min(nextCount, next.settings.letterRaceMaxPoints);
+      player.score = applyScore(player.score, capped - prevCapped, next.settings);
+    }
+    sub.acceptedWords[idx] = cmd.accepted;
+    return ok(next, ctx, [ev(state, ctx, "submission_judged", envelope.actorId, { playerId: cmd.playerId, wordIndex: idx, accepted: cmd.accepted })]);
+  }
+  if (type === "judge:approveAllSubmissions") {
+    if (state.state !== "reveal") return reject("wrong_state");
+    const next = structuredClone(state);
+    for (const sub of next.submissions) {
+      const player = next.players.find((p) => p.id === sub.playerId);
+      if (!player) continue;
+      if (sub.payload.kind === "bus") {
+        sub.acceptedCells = { ...(sub.acceptedCells ?? {}) };
+        for (const [cat, val] of Object.entries(sub.payload.answers)) {
+          if (val.trim() && sub.acceptedCells[cat] !== true) {
+            sub.acceptedCells[cat] = true;
+            player.score = applyScore(player.score, next.settings.pointsPerCorrect, next.settings);
+          }
+        }
+      } else if (sub.payload.kind === "letter_race") {
+        if (!sub.acceptedWords) sub.acceptedWords = sub.payload.words.map(() => false);
+        let count = sub.acceptedWords.filter(Boolean).length;
+        for (let i = 0; i < sub.payload.words.length; i++) {
+          if (!sub.acceptedWords[i]) {
+            sub.acceptedWords[i] = true;
+            const prev = Math.min(count, next.settings.letterRaceMaxPoints);
+            count += 1;
+            const now = Math.min(count, next.settings.letterRaceMaxPoints);
+            player.score = applyScore(player.score, now - prev, next.settings);
+          }
+        }
+      }
+    }
+    return ok(next, ctx, [ev(state, ctx, "submission_judged", envelope.actorId, { approveAll: true })]);
+  }
+  if (type === "judge:setRumbleVerdict") {
+    if (state.state !== "submissions_closed" && state.state !== "reveal") return reject("wrong_state");
+    const next = structuredClone(state);
+    if (!next.rumble) next.rumble = { verdicts: {}, confirmed: false, replayed: false, eliminatedBefore: next.players.filter((p) => p.isEliminated).map((p) => p.id) };
+    next.rumble.verdicts[cmd.playerId] = cmd.verdict;
+    return ok(next, ctx, [ev(state, ctx, "submission_judged", envelope.actorId, { playerId: cmd.playerId, verdict: cmd.verdict })]);
+  }
+  if (type === "judge:confirmRumbleResult") {
+    if (state.state !== "submissions_closed") return reject("wrong_state");
+    const next = structuredClone(state);
+    if (!next.rumble) next.rumble = { verdicts: {}, confirmed: false, replayed: false, eliminatedBefore: next.players.filter((p) => p.isEliminated).map((p) => p.id) };
+    const active = next.players.filter((p) => !p.isEliminated);
+    const subs = next.submissions.filter((s) => s.payload.kind === "rumble");
+    const byPlayer = new Map(subs.map((s) => [s.playerId, (s.payload as { answer: string }).answer]));
+    const answer = next.currentQuestion?.answer ?? "";
+    const accepted = next.currentQuestion?.acceptedAnswers ?? [];
+    const norm = (t: string) => normalizeAnswer(t);
+    const groups = new Map<string, string[]>();
+    for (const [pid, ans] of byPlayer) {
+      const key = norm(ans);
+      groups.set(key, [...(groups.get(key) ?? []), pid]);
+    }
+    const out = new Set<string>();
+    for (const p of active) if (!byPlayer.has(p.id)) out.add(p.id);
+    for (const ids of groups.values()) if (ids.length >= 2) for (const id of ids) out.add(id);
+    const isMatch = (ans: string) => norm(ans) === norm(answer) || accepted.some((a) => norm(a) === norm(ans));
+    for (const p of active) {
+      if (out.has(p.id)) continue;
+      const verdict = next.rumble.verdicts[p.id];
+      const correct = verdict ? verdict === "correct" : isMatch(byPlayer.get(p.id) ?? "");
+      if (!correct) out.add(p.id);
+    }
+    // verify verdicts override
+    for (const [pid, v] of Object.entries(next.rumble.verdicts)) {
+      if (v === "wrong") out.add(pid);
+      if (v === "correct" && groups.get(norm(byPlayer.get(pid) ?? ""))?.length === 1) out.delete(pid);
+    }
+    const before = next.rumble.eliminatedBefore;
+    const eliminatedNow = [...out];
+    if (eliminatedNow.length === active.length && active.length > 0) {
+      // all out -> replay
+      for (const p of next.players) p.isEliminated = before.includes(p.id);
+      next.submissions = [];
+      next.currentQuestion = null;
+      next.rumble = { verdicts: {}, confirmed: false, replayed: true, eliminatedBefore: before };
+      next.state = "question_setup";
+      next.busLetter = null;
+      return ok(next, ctx, [ev(state, ctx, "round_replayed", envelope.actorId, { reason: "all_out" })]);
+    }
+    for (const p of next.players) if (out.has(p.id)) p.isEliminated = true;
+    const remaining = next.players.filter((p) => !p.isEliminated);
+    if (remaining.length === 1) {
+      remaining[0]!.score = applyScore(remaining[0]!.score, 2, next.settings);
+      next.round.winnerId = remaining[0]!.id;
+    } else if (remaining.length >= 2 && out.size > 0) {
+      for (const p of remaining) p.score = applyScore(p.score, 1, next.settings);
+    }
+    next.rumble.confirmed = true;
+    next.state = "reveal";
+    return ok(next, ctx, [ev(state, ctx, "rumble_resolved", envelope.actorId, { eliminated: [...out], remaining: remaining.map((p) => p.id) })]);
+  }
+  if (type === "judge:skipQuestion") {
+    if (!["question_setup", "question_active", "buzzer_locked"].includes(state.state)) return reject("wrong_state");
+    const next = structuredClone(state);
+    next.currentQuestion = null;
+    next.buzzer = null;
+    next.state = "question_setup";
+    return ok(next, ctx, [ev(state, ctx, "question_started", envelope.actorId, { skipped: true })]);
   }
 
   // Placeholder handlers for later tasks
