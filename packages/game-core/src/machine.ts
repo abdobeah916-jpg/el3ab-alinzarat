@@ -267,6 +267,81 @@ export function applyCommand(state: RoomState, envelope: CommandEnvelope, ctx: C
     return ok(next, ctx, [ev(state, ctx, "answer_judged", envelope.actorId, { ended: true })]);
   }
 
+  // Lifecycle + tiebreak
+  if (type === "judge:endGame") {
+    if (!["result", "next_question", "reveal"].includes(state.state)) return reject("wrong_state");
+    const next = structuredClone(state);
+    const max = Math.max(...next.players.map((p) => p.score));
+    const winners = next.players.filter((p) => p.score === max).map((p) => p.id);
+    next.state = "finished";
+    next.round.winnerId = winners.length === 1 ? winners[0]! : null;
+    return ok(next, ctx, [ev(state, ctx, "game_finished", envelope.actorId, { winnerId: next.round.winnerId, tied: winners.length > 1 ? winners : [] })]);
+  }
+  if (type === "judge:startTieBreaker") {
+    if (state.state !== "finished") return reject("wrong_state");
+    const next = structuredClone(state);
+    next.state = "tie_breaker";
+    next.round.tieBreaker = true;
+    next.currentQuestion = null;
+    next.buzzer = null;
+    return ok(next, ctx, [ev(state, ctx, "tie_breaker_started", envelope.actorId, {})]);
+  }
+  if (type === "judge:declareTie") {
+    if (state.state !== "tie_breaker") return reject("wrong_state");
+    const next = structuredClone(state);
+    next.state = "finished";
+    next.round.winnerId = null;
+    return ok(next, ctx, [ev(state, ctx, "game_finished", envelope.actorId, { tied: true })]);
+  }
+  if (type === "judge:rematch") {
+    if (state.state !== "finished") return reject("wrong_state");
+    const next = structuredClone(state);
+    next.state = "lobby";
+    next.players = next.players.map((p) => ({ ...p, score: 0, isEliminated: false, powerupKey: null, powerupState: "none" as const }));
+    next.usedQuestionIds = [];
+    next.currentQuestion = null;
+    next.buzzer = null;
+    next.answererId = null;
+    next.pendingPowerup = null;
+    next.salem = null;
+    next.nextCategoryOverride = null;
+    next.submissions = [];
+    next.rumble = null;
+    next.round = { index: 1, tieBreaker: false, winnerId: null, cards: [] };
+    next.usedCards = [];
+    return ok(next, ctx, [ev(state, ctx, "game_started", envelope.actorId, { rematch: true })]);
+  }
+  if (type === "judge:nextQuestion") {
+    if (state.state === "reveal") {
+      const next = structuredClone(state);
+      next.state = "result";
+      return ok(next, ctx, [ev(state, ctx, "round_started", envelope.actorId, {})]);
+    }
+    if (state.state !== "result") return reject("wrong_state");
+    const next = structuredClone(state);
+    next.state = "next_question";
+    next.answererId = null;
+    next.buzzer = null;
+    next.submissions = [];
+    next.round.cards = [];
+    next.currentQuestion = null;
+    return ok(next, ctx, [ev(state, ctx, "round_started", envelope.actorId, { roundIndex: next.round.index })]);
+  }
+  if (type === "judge:pause" || type === "judge:resume") {
+    const next = structuredClone(state);
+    if (type === "judge:pause") {
+      if (next.paused) return reject("wrong_state");
+      next.paused = true;
+      next.resumeState = next.state;
+    } else {
+      if (!next.paused) return reject("wrong_state");
+      next.paused = false;
+      next.state = next.resumeState ?? next.state;
+      next.resumeState = null;
+    }
+    return ok(next, ctx, [ev(state, ctx, "game_started", envelope.actorId, { [type]: true })]);
+  }
+
   // Placeholder handlers for later tasks
   return reject("wrong_state", "not implemented yet");
 }
