@@ -1,0 +1,3 @@
+export type GameEventType = "room_created" | "player_joined" | "player_left" | "powerup_reserved" | "powerup_rejected" | "game_started" | "round_started" | "question_selected" | "question_started" | "buzzer_opened" | "buzzer_pressed" | "buzzer_closed" | "answerer_selected" | "answer_judged" | "card_played" | "powerup_resolved" | "submissions_closed" | "submission_judged" | "rumble_resolved" | "round_replayed" | "score_adjusted" | "tie_breaker_started" | "game_finished" | "command_rejected";
+
+export type GameEvent = { id: string; roomCode: string; seq: number; at: number; type: GameEventType; actorId?: string; payload: Record<string, unknown> };
