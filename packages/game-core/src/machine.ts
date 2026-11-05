@@ -107,8 +107,87 @@ export function applyCommand(state: RoomState, envelope: CommandEnvelope, ctx: C
     return ok(next, ctx, [ev(state, ctx, "round_started", envelope.actorId, { kind: cmd.kind })]);
   }
 
+  // Begin round + question selection
+  if (type === "judge:beginRound") {
+    if (state.state !== "round_intro") return reject("wrong_state");
+    const next = structuredClone(state);
+    next.state = "question_setup";
+    return ok(next, ctx, [ev(state, ctx, "round_started", envelope.actorId, { roundIndex: next.round.index })]);
+  }
+  if (type === "judge:selectCategory") {
+    if (!["question_setup", "result", "next_question"].includes(state.state)) return reject("wrong_state");
+    const next = structuredClone(state);
+    next.selectedCategory = cmd.categorySlug;
+    return ok(next, ctx, [ev(state, ctx, "question_selected", envelope.actorId, { categorySlug: cmd.categorySlug })]);
+  }
+  if (type === "judge:selectQuestion") {
+    if (state.state !== "question_setup") return reject("wrong_state");
+    if (!cmd.question || !cmd.question.id) return reject("invalid_payload");
+    const next = structuredClone(state);
+    next.currentQuestion = cmd.question;
+    next.usedQuestionIds = [...next.usedQuestionIds, cmd.question.id];
+    next.selectedCategory = cmd.question.categorySlug;
+    next.nextCategoryOverride = null;
+    return ok(next, ctx, [ev(state, ctx, "question_selected", envelope.actorId, { questionId: cmd.question.id })]);
+  }
+  if (type === "judge:startQuestion") {
+    if (state.state !== "question_setup") return reject("wrong_state");
+    if (state.roundKind === "bus" || state.roundKind === "letter_race") {
+      if (!state.busLetter) return reject("wrong_phase", "letter required");
+      const next = structuredClone(state);
+      next.state = "simultaneous_active";
+      next.submissionsClosedAt = ctx.at + next.settings.busSeconds * 1000;
+      next.submissions = [];
+      return ok(next, ctx, [ev(state, ctx, "question_started", envelope.actorId, { roundKind: next.roundKind })]);
+    }
+    if (!state.currentQuestion) return reject("wrong_phase", "no question");
+    const next = structuredClone(state);
+    if (next.roundKind === "buzzer") {
+      next.state = "question_active";
+      next.buzzer = { isOpen: true, openedAt: ctx.at, deadline: ctx.at + next.settings.buzzerSeconds * 1000, presses: [] };
+    } else {
+      next.state = "simultaneous_active";
+      next.submissionsClosedAt = ctx.at + next.settings.busSeconds * 1000;
+      next.submissions = [];
+    }
+    return ok(next, ctx, [ev(state, ctx, "question_started", envelope.actorId, { questionId: next.currentQuestion?.id })]);
+  }
+  // Powerup activation (full rules in Task 8)
+  if (type === "player:activatePowerup") {
+    if (!["ready", "result", "question_setup", "next_question"].includes(state.state)) return reject("wrong_state");
+    const next = structuredClone(state);
+    const player = next.players.find((p) => p.id === envelope.actorId);
+    if (!player || !player.powerupKey || player.powerupState !== "reserved") return reject("invalid_payload");
+    if (next.pendingPowerup) return reject("invalid_payload", "pending");
+    player.powerupState = "used";
+    next.pendingPowerup = { ownerId: player.id, key: player.powerupKey, targetId: cmd.targetId, categorySlug: cmd.categorySlug, returnState: state.state };
+    return ok(next, ctx, [ev(state, ctx, "powerup_reserved", envelope.actorId, { key: player.powerupKey })]);
+  }
+  if (type === "judge:resolvePowerup") {
+    if (!state.pendingPowerup) return reject("wrong_state");
+    const next = structuredClone(state);
+    const pending = next.pendingPowerup!;
+    if (cmd.approve) {
+      if (pending.key === "cobri" && pending.categorySlug) next.nextCategoryOverride = pending.categorySlug;
+      if (pending.key === "shank" && pending.targetId) {
+        const target = next.players.find((p) => p.id === pending.targetId);
+        if (target) target.score = applyScore(target.score, next.settings.shankPenalty, next.settings);
+      }
+      if (pending.key === "salem" && pending.targetId) next.salem = { ownerId: pending.ownerId, targetId: pending.targetId, state: "active" };
+    }
+    const returnState = pending.returnState;
+    next.pendingPowerup = null;
+    next.state = returnState;
+    return ok(next, ctx, [ev(state, ctx, "powerup_resolved", envelope.actorId, { key: pending.key, approve: cmd.approve })]);
+  }
+
   // Placeholder handlers for later tasks
   return reject("wrong_state", "not implemented yet");
+}
+
+function applyScore(current: number, delta: number, settings: RoomState["settings"]): number {
+  const next = current + delta;
+  return settings.allowNegative ? next : Math.max(0, next);
 }
 
 function handleDeadline(state: RoomState, ctx: Ctx): CommandResult {
