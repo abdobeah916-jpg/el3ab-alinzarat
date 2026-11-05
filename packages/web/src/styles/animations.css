@@ -1,0 +1,7 @@
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes bell-pulse { 0% { transform: scale(1); } 50% { transform: scale(1.06); } 100% { transform: scale(1); } }
+  .bell { animation: bell-pulse 0.4s ease-out; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0s !important; transition-duration: 0s !important; }
+}

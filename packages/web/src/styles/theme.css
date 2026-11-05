@@ -1,0 +1,13 @@
+:root {
+  --bg-0: #0A0806; --bg-1: #15100A; --surface: #1B1611;
+  --gold: #F2B01E; --gold-soft: #F5C542; --bell: #D92B2B;
+  --cream: #F7F3EA; --glow: #FF7A18; --green: #39D353; --blue: #2FA8FF;
+  --shank: #A855F7; --cobri: #2FA8FF; --salem: #39D353;
+  --radius: 16px; --tap: 44px;
+}
+body { background: linear-gradient(var(--bg-0), var(--bg-1)); color: var(--cream); font-family: "IBM Plex Sans Arabic", system-ui, sans-serif; margin: 0; }
+button { min-height: var(--tap); min-width: var(--tap); border-radius: var(--radius); border: 1px solid var(--gold); background: var(--surface); color: var(--cream); padding: 12px 16px; }
+button:disabled { opacity: 0.45; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+input { min-height: var(--tap); border-radius: 12px; border: 1px solid var(--gold); background: var(--surface); color: var(--cream); padding: 12px; width: 100%; box-sizing: border-box; }
+[dir="rtl"] { text-align: start; }
