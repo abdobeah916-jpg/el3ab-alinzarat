@@ -1,4 +1,4 @@
-import type { CommandEnvelope, GameEvent, PlayerState, RejectCode, RoomState } from "@casino/shared";
+﻿import type { CommandEnvelope, GameEvent, PlayerState, RejectCode, RoomState } from "@casino/shared";
 import { MAX_PLAYERS, POWERUP_KEYS } from "@casino/shared";
 
 export type CommandResult = { ok: true; state: RoomState; events: GameEvent[] } | { ok: false; code: RejectCode; message: string };
@@ -179,6 +179,40 @@ export function applyCommand(state: RoomState, envelope: CommandEnvelope, ctx: C
     next.pendingPowerup = null;
     next.state = returnState;
     return ok(next, ctx, [ev(state, ctx, "powerup_resolved", envelope.actorId, { key: pending.key, approve: cmd.approve })]);
+  }
+
+  // Buzzer
+  if (type === "player:buzz") {
+    if (state.state !== "question_active" || !state.buzzer?.isOpen) return reject("wrong_state");
+    if (state.buzzer.deadline !== null && ctx.at > state.buzzer.deadline) return reject("wrong_phase", "expired");
+    if (state.buzzer.presses.some((p) => p.playerId === envelope.actorId)) return reject("already_used");
+    const next = structuredClone(state);
+    next.buzzer!.presses.push({ playerId: envelope.actorId, at: ctx.at, seq: ctx.seq });
+    return ok(next, ctx, [ev(state, ctx, "buzzer_pressed", envelope.actorId, { playerId: envelope.actorId })]);
+  }
+  if (type === "judge:closeBuzzer") {
+    if (state.state !== "question_active") return reject("wrong_state");
+    const next = structuredClone(state);
+    next.state = "buzzer_locked";
+    next.buzzer!.isOpen = false;
+    return ok(next, ctx, [ev(state, ctx, "buzzer_closed", envelope.actorId, {})]);
+  }
+  if (type === "judge:openBuzzer") {
+    if (state.state !== "buzzer_locked" && state.state !== "card_action" && state.state !== "question_active") return reject("wrong_state");
+    const next = structuredClone(state);
+    next.state = "question_active";
+    next.buzzer = { isOpen: true, openedAt: ctx.at, deadline: ctx.at + next.settings.buzzerSeconds * 1000, presses: state.buzzer?.presses ?? [] };
+    next.answererId = null;
+    return ok(next, ctx, [ev(state, ctx, "buzzer_opened", envelope.actorId, {})]);
+  }
+  if (type === "judge:selectAnswerer") {
+    if (state.state !== "buzzer_locked") return reject("wrong_state");
+    const player = state.players.find((p) => p.id === cmd.playerId);
+    if (!player || player.isEliminated) return reject("invalid_payload");
+    const next = structuredClone(state);
+    next.state = "answering";
+    next.answererId = cmd.playerId;
+    return ok(next, ctx, [ev(state, ctx, "answerer_selected", envelope.actorId, { playerId: cmd.playerId })]);
   }
 
   // Placeholder handlers for later tasks
