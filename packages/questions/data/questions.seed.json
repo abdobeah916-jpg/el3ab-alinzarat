@@ -1,0 +1,3908 @@
+[
+  {
+    "id": "general-001",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 1 نص السؤال",
+    "answer": "الإجابة 1",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "easy"
+  },
+  {
+    "id": "general-002",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 2 نص السؤال",
+    "answer": "الإجابة 2",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "general-003",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 3 نص السؤال",
+    "answer": "الإجابة 3",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "hard"
+  },
+  {
+    "id": "general-004",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 4 نص السؤال",
+    "answer": "الإجابة 4",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "easy"
+  },
+  {
+    "id": "general-005",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 5 نص السؤال",
+    "answer": "الإجابة 5",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "medium"
+  },
+  {
+    "id": "general-006",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 6 نص السؤال",
+    "answer": "الإجابة 6",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "hard"
+  },
+  {
+    "id": "general-007",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 7 نص السؤال",
+    "answer": "الإجابة 7",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "general-008",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 8 نص السؤال",
+    "answer": "الإجابة 8",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "medium"
+  },
+  {
+    "id": "general-009",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 9 نص السؤال",
+    "answer": "الإجابة 9",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "general-010",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 10 نص السؤال",
+    "answer": "الإجابة 10",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "easy"
+  },
+  {
+    "id": "general-011",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 11 نص السؤال",
+    "answer": "الإجابة 11",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "general-012",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 12 نص السؤال",
+    "answer": "الإجابة 12",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "general-013",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 13 نص السؤال",
+    "answer": "الإجابة 13",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "easy"
+  },
+  {
+    "id": "general-014",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 14 نص السؤال",
+    "answer": "الإجابة 14",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "medium"
+  },
+  {
+    "id": "general-015",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 15 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "hard"
+  },
+  {
+    "id": "general-016",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 16 نص السؤال",
+    "answer": "الإجابة 16",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "easy",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "general-017",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 17 نص السؤال",
+    "answer": "الإجابة 17",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "medium",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "general-018",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 18 نص السؤال",
+    "answer": "الإجابة 18",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "hard"
+  },
+  {
+    "id": "general-019",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 19 نص السؤال",
+    "answer": "الإجابة 19",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "easy",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "general-020",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 20 نص السؤال",
+    "answer": "الإجابة 20",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "medium"
+  },
+  {
+    "id": "general-021",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 21 نص السؤال",
+    "answer": "الإجابة 21",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "hard"
+  },
+  {
+    "id": "general-022",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 22 نص السؤال",
+    "answer": "الإجابة 22",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "easy"
+  },
+  {
+    "id": "general-023",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 23 نص السؤال",
+    "answer": "الإجابة 23",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "medium"
+  },
+  {
+    "id": "general-024",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 24 نص السؤال",
+    "answer": "الإجابة 24",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "hard"
+  },
+  {
+    "id": "general-025",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 25 نص السؤال",
+    "answer": "الإجابة 25",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "easy"
+  },
+  {
+    "id": "general-026",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 26 نص السؤال",
+    "answer": "الإجابة 26",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "general-027",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 27 نص السؤال",
+    "answer": "الإجابة 27",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "hard"
+  },
+  {
+    "id": "general-028",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 28 نص السؤال",
+    "answer": "الإجابة 28",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "general-029",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 29 نص السؤال",
+    "answer": "الإجابة 29",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "general-030",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 30 نص السؤال",
+    "answer": "الإجابة 30",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "hard"
+  },
+  {
+    "id": "general-031",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 31 نص السؤال",
+    "answer": "الإجابة 31",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "easy"
+  },
+  {
+    "id": "general-032",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 32 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "medium"
+  },
+  {
+    "id": "general-033",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 33 نص السؤال",
+    "answer": "الإجابة 33",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "hard",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "general-034",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 34 نص السؤال",
+    "answer": "الإجابة 34",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "easy",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "general-035",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 35 نص السؤال",
+    "answer": "الإجابة 35",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "medium"
+  },
+  {
+    "id": "general-036",
+    "categorySlug": "general",
+    "text": "سؤال general رقم 36 نص السؤال",
+    "answer": "الإجابة 36",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "sport-037",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 37 نص السؤال",
+    "answer": "الإجابة 37",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sport-038",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 38 نص السؤال",
+    "answer": "الإجابة 38",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sport-039",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 39 نص السؤال",
+    "answer": "الإجابة 39",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "hard"
+  },
+  {
+    "id": "sport-040",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 40 نص السؤال",
+    "answer": "الإجابة 40",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sport-041",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 41 نص السؤال",
+    "answer": "الإجابة 41",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sport-042",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 42 نص السؤال",
+    "answer": "الإجابة 42",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "hard"
+  },
+  {
+    "id": "sport-043",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 43 نص السؤال",
+    "answer": "الإجابة 43",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sport-044",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 44 نص السؤال",
+    "answer": "الإجابة 44",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sport-045",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 45 نص السؤال",
+    "answer": "الإجابة 45",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "sport-046",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 46 نص السؤال",
+    "answer": "الإجابة 46",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sport-047",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 47 نص السؤال",
+    "answer": "الإجابة 47",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sport-048",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 48 نص السؤال",
+    "answer": "الإجابة 48",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "hard"
+  },
+  {
+    "id": "sport-049",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 49 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sport-050",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 50 نص السؤال",
+    "answer": "الإجابة 50",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "medium",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "sport-051",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 51 نص السؤال",
+    "answer": "الإجابة 51",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "hard",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "sport-052",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 52 نص السؤال",
+    "answer": "الإجابة 52",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sport-053",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 53 نص السؤال",
+    "answer": "الإجابة 53",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "sport-054",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 54 نص السؤال",
+    "answer": "الإجابة 54",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "hard"
+  },
+  {
+    "id": "sport-055",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 55 نص السؤال",
+    "answer": "الإجابة 55",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sport-056",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 56 نص السؤال",
+    "answer": "الإجابة 56",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sport-057",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 57 نص السؤال",
+    "answer": "الإجابة 57",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "hard"
+  },
+  {
+    "id": "sport-058",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 58 نص السؤال",
+    "answer": "الإجابة 58",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sport-059",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 59 نص السؤال",
+    "answer": "الإجابة 59",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sport-060",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 60 نص السؤال",
+    "answer": "الإجابة 60",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "sport-061",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 61 نص السؤال",
+    "answer": "الإجابة 61",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sport-062",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 62 نص السؤال",
+    "answer": "الإجابة 62",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sport-063",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 63 نص السؤال",
+    "answer": "الإجابة 63",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "sport-064",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 64 نص السؤال",
+    "answer": "الإجابة 64",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sport-065",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 65 نص السؤال",
+    "answer": "الإجابة 65",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sport-066",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 66 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "hard"
+  },
+  {
+    "id": "sport-067",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 67 نص السؤال",
+    "answer": "الإجابة 67",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "easy",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "sport-068",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 68 نص السؤال",
+    "answer": "الإجابة 68",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "medium",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "sport-069",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 69 نص السؤال",
+    "answer": "الإجابة 69",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "hard"
+  },
+  {
+    "id": "sport-070",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 70 نص السؤال",
+    "answer": "الإجابة 70",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "easy",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "sport-071",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 71 نص السؤال",
+    "answer": "الإجابة 71",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sport-072",
+    "categorySlug": "sport",
+    "text": "سؤال sport رقم 72 نص السؤال",
+    "answer": "الإجابة 72",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "hard"
+  },
+  {
+    "id": "history-073",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 73 نص السؤال",
+    "answer": "الإجابة 73",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "easy"
+  },
+  {
+    "id": "history-074",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 74 نص السؤال",
+    "answer": "الإجابة 74",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "medium"
+  },
+  {
+    "id": "history-075",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 75 نص السؤال",
+    "answer": "الإجابة 75",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "hard"
+  },
+  {
+    "id": "history-076",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 76 نص السؤال",
+    "answer": "الإجابة 76",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "easy"
+  },
+  {
+    "id": "history-077",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 77 نص السؤال",
+    "answer": "الإجابة 77",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "history-078",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 78 نص السؤال",
+    "answer": "الإجابة 78",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "hard"
+  },
+  {
+    "id": "history-079",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 79 نص السؤال",
+    "answer": "الإجابة 79",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "history-080",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 80 نص السؤال",
+    "answer": "الإجابة 80",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "history-081",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 81 نص السؤال",
+    "answer": "الإجابة 81",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "hard"
+  },
+  {
+    "id": "history-082",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 82 نص السؤال",
+    "answer": "الإجابة 82",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "easy"
+  },
+  {
+    "id": "history-083",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 83 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "medium"
+  },
+  {
+    "id": "history-084",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 84 نص السؤال",
+    "answer": "الإجابة 84",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "hard",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "history-085",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 85 نص السؤال",
+    "answer": "الإجابة 85",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "easy",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "history-086",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 86 نص السؤال",
+    "answer": "الإجابة 86",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "medium"
+  },
+  {
+    "id": "history-087",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 87 نص السؤال",
+    "answer": "الإجابة 87",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "history-088",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 88 نص السؤال",
+    "answer": "الإجابة 88",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "easy"
+  },
+  {
+    "id": "history-089",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 89 نص السؤال",
+    "answer": "الإجابة 89",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "medium"
+  },
+  {
+    "id": "history-090",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 90 نص السؤال",
+    "answer": "الإجابة 90",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "hard"
+  },
+  {
+    "id": "history-091",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 91 نص السؤال",
+    "answer": "الإجابة 91",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "easy"
+  },
+  {
+    "id": "history-092",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 92 نص السؤال",
+    "answer": "الإجابة 92",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "history-093",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 93 نص السؤال",
+    "answer": "الإجابة 93",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "hard"
+  },
+  {
+    "id": "history-094",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 94 نص السؤال",
+    "answer": "الإجابة 94",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "history-095",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 95 نص السؤال",
+    "answer": "الإجابة 95",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "medium"
+  },
+  {
+    "id": "history-096",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 96 نص السؤال",
+    "answer": "الإجابة 96",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "history-097",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 97 نص السؤال",
+    "answer": "الإجابة 97",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "history-098",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 98 نص السؤال",
+    "answer": "الإجابة 98",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "medium"
+  },
+  {
+    "id": "history-099",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 99 نص السؤال",
+    "answer": "الإجابة 99",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "hard"
+  },
+  {
+    "id": "history-100",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 100 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "easy"
+  },
+  {
+    "id": "history-101",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 101 نص السؤال",
+    "answer": "الإجابة 101",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "medium",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "history-102",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 102 نص السؤال",
+    "answer": "الإجابة 102",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "hard",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "history-103",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 103 نص السؤال",
+    "answer": "الإجابة 103",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "easy"
+  },
+  {
+    "id": "history-104",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 104 نص السؤال",
+    "answer": "الإجابة 104",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "history-105",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 105 نص السؤال",
+    "answer": "الإجابة 105",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "hard"
+  },
+  {
+    "id": "history-106",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 106 نص السؤال",
+    "answer": "الإجابة 106",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "easy"
+  },
+  {
+    "id": "history-107",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 107 نص السؤال",
+    "answer": "الإجابة 107",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "medium"
+  },
+  {
+    "id": "history-108",
+    "categorySlug": "history",
+    "text": "سؤال history رقم 108 نص السؤال",
+    "answer": "الإجابة 108",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "hard"
+  },
+  {
+    "id": "geography-109",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 109 نص السؤال",
+    "answer": "الإجابة 109",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "geography-110",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 110 نص السؤال",
+    "answer": "الإجابة 110",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "medium"
+  },
+  {
+    "id": "geography-111",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 111 نص السؤال",
+    "answer": "الإجابة 111",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "geography-112",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 112 نص السؤال",
+    "answer": "الإجابة 112",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "easy"
+  },
+  {
+    "id": "geography-113",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 113 نص السؤال",
+    "answer": "الإجابة 113",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "geography-114",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 114 نص السؤال",
+    "answer": "الإجابة 114",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "geography-115",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 115 نص السؤال",
+    "answer": "الإجابة 115",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "easy"
+  },
+  {
+    "id": "geography-116",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 116 نص السؤال",
+    "answer": "الإجابة 116",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "medium"
+  },
+  {
+    "id": "geography-117",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 117 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "hard"
+  },
+  {
+    "id": "geography-118",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 118 نص السؤال",
+    "answer": "الإجابة 118",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "easy",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "geography-119",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 119 نص السؤال",
+    "answer": "الإجابة 119",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "medium",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "geography-120",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 120 نص السؤال",
+    "answer": "الإجابة 120",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "hard"
+  },
+  {
+    "id": "geography-121",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 121 نص السؤال",
+    "answer": "الإجابة 121",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "easy",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "geography-122",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 122 نص السؤال",
+    "answer": "الإجابة 122",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "medium"
+  },
+  {
+    "id": "geography-123",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 123 نص السؤال",
+    "answer": "الإجابة 123",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "hard"
+  },
+  {
+    "id": "geography-124",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 124 نص السؤال",
+    "answer": "الإجابة 124",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "easy"
+  },
+  {
+    "id": "geography-125",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 125 نص السؤال",
+    "answer": "الإجابة 125",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "medium"
+  },
+  {
+    "id": "geography-126",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 126 نص السؤال",
+    "answer": "الإجابة 126",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "hard"
+  },
+  {
+    "id": "geography-127",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 127 نص السؤال",
+    "answer": "الإجابة 127",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "easy"
+  },
+  {
+    "id": "geography-128",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 128 نص السؤال",
+    "answer": "الإجابة 128",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "geography-129",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 129 نص السؤال",
+    "answer": "الإجابة 129",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "hard"
+  },
+  {
+    "id": "geography-130",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 130 نص السؤال",
+    "answer": "الإجابة 130",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "geography-131",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 131 نص السؤال",
+    "answer": "الإجابة 131",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "geography-132",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 132 نص السؤال",
+    "answer": "الإجابة 132",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "hard"
+  },
+  {
+    "id": "geography-133",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 133 نص السؤال",
+    "answer": "الإجابة 133",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "easy"
+  },
+  {
+    "id": "geography-134",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 134 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "medium"
+  },
+  {
+    "id": "geography-135",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 135 نص السؤال",
+    "answer": "الإجابة 135",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "hard",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "geography-136",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 136 نص السؤال",
+    "answer": "الإجابة 136",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "easy",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "geography-137",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 137 نص السؤال",
+    "answer": "الإجابة 137",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "medium"
+  },
+  {
+    "id": "geography-138",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 138 نص السؤال",
+    "answer": "الإجابة 138",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "geography-139",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 139 نص السؤال",
+    "answer": "الإجابة 139",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "easy"
+  },
+  {
+    "id": "geography-140",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 140 نص السؤال",
+    "answer": "الإجابة 140",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "medium"
+  },
+  {
+    "id": "geography-141",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 141 نص السؤال",
+    "answer": "الإجابة 141",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "hard"
+  },
+  {
+    "id": "geography-142",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 142 نص السؤال",
+    "answer": "الإجابة 142",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "easy"
+  },
+  {
+    "id": "geography-143",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 143 نص السؤال",
+    "answer": "الإجابة 143",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "geography-144",
+    "categorySlug": "geography",
+    "text": "سؤال geography رقم 144 نص السؤال",
+    "answer": "الإجابة 144",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cinema-145",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 145 نص السؤال",
+    "answer": "الإجابة 145",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cinema-146",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 146 نص السؤال",
+    "answer": "الإجابة 146",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cinema-147",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 147 نص السؤال",
+    "answer": "الإجابة 147",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cinema-148",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 148 نص السؤال",
+    "answer": "الإجابة 148",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cinema-149",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 149 نص السؤال",
+    "answer": "الإجابة 149",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cinema-150",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 150 نص السؤال",
+    "answer": "الإجابة 150",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cinema-151",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 151 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cinema-152",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 152 نص السؤال",
+    "answer": "الإجابة 152",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "medium",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "cinema-153",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 153 نص السؤال",
+    "answer": "الإجابة 153",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "hard",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "cinema-154",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 154 نص السؤال",
+    "answer": "الإجابة 154",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cinema-155",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 155 نص السؤال",
+    "answer": "الإجابة 155",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "cinema-156",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 156 نص السؤال",
+    "answer": "الإجابة 156",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cinema-157",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 157 نص السؤال",
+    "answer": "الإجابة 157",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cinema-158",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 158 نص السؤال",
+    "answer": "الإجابة 158",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cinema-159",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 159 نص السؤال",
+    "answer": "الإجابة 159",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cinema-160",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 160 نص السؤال",
+    "answer": "الإجابة 160",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cinema-161",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 161 نص السؤال",
+    "answer": "الإجابة 161",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cinema-162",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 162 نص السؤال",
+    "answer": "الإجابة 162",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cinema-163",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 163 نص السؤال",
+    "answer": "الإجابة 163",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cinema-164",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 164 نص السؤال",
+    "answer": "الإجابة 164",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cinema-165",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 165 نص السؤال",
+    "answer": "الإجابة 165",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cinema-166",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 166 نص السؤال",
+    "answer": "الإجابة 166",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cinema-167",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 167 نص السؤال",
+    "answer": "الإجابة 167",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cinema-168",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 168 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cinema-169",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 169 نص السؤال",
+    "answer": "الإجابة 169",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "easy",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "cinema-170",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 170 نص السؤال",
+    "answer": "الإجابة 170",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "medium",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "cinema-171",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 171 نص السؤال",
+    "answer": "الإجابة 171",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cinema-172",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 172 نص السؤال",
+    "answer": "الإجابة 172",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "easy",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "cinema-173",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 173 نص السؤال",
+    "answer": "الإجابة 173",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cinema-174",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 174 نص السؤال",
+    "answer": "الإجابة 174",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cinema-175",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 175 نص السؤال",
+    "answer": "الإجابة 175",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cinema-176",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 176 نص السؤال",
+    "answer": "الإجابة 176",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cinema-177",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 177 نص السؤال",
+    "answer": "الإجابة 177",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cinema-178",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 178 نص السؤال",
+    "answer": "الإجابة 178",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cinema-179",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 179 نص السؤال",
+    "answer": "الإجابة 179",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cinema-180",
+    "categorySlug": "cinema",
+    "text": "سؤال cinema رقم 180 نص السؤال",
+    "answer": "الإجابة 180",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-181",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 181 نص السؤال",
+    "answer": "الإجابة 181",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "music-182",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 182 نص السؤال",
+    "answer": "الإجابة 182",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-183",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 183 نص السؤال",
+    "answer": "الإجابة 183",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-184",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 184 نص السؤال",
+    "answer": "الإجابة 184",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "easy"
+  },
+  {
+    "id": "music-185",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 185 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-186",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 186 نص السؤال",
+    "answer": "الإجابة 186",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "hard",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "music-187",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 187 نص السؤال",
+    "answer": "الإجابة 187",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "easy",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "music-188",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 188 نص السؤال",
+    "answer": "الإجابة 188",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-189",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 189 نص السؤال",
+    "answer": "الإجابة 189",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "music-190",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 190 نص السؤال",
+    "answer": "الإجابة 190",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "easy"
+  },
+  {
+    "id": "music-191",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 191 نص السؤال",
+    "answer": "الإجابة 191",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-192",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 192 نص السؤال",
+    "answer": "الإجابة 192",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-193",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 193 نص السؤال",
+    "answer": "الإجابة 193",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "easy"
+  },
+  {
+    "id": "music-194",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 194 نص السؤال",
+    "answer": "الإجابة 194",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-195",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 195 نص السؤال",
+    "answer": "الإجابة 195",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-196",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 196 نص السؤال",
+    "answer": "الإجابة 196",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "music-197",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 197 نص السؤال",
+    "answer": "الإجابة 197",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-198",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 198 نص السؤال",
+    "answer": "الإجابة 198",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-199",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 199 نص السؤال",
+    "answer": "الإجابة 199",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "music-200",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 200 نص السؤال",
+    "answer": "الإجابة 200",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-201",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 201 نص السؤال",
+    "answer": "الإجابة 201",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-202",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 202 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "easy"
+  },
+  {
+    "id": "music-203",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 203 نص السؤال",
+    "answer": "الإجابة 203",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "medium",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "music-204",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 204 نص السؤال",
+    "answer": "الإجابة 204",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "hard",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "music-205",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 205 نص السؤال",
+    "answer": "الإجابة 205",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "easy"
+  },
+  {
+    "id": "music-206",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 206 نص السؤال",
+    "answer": "الإجابة 206",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "music-207",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 207 نص السؤال",
+    "answer": "الإجابة 207",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-208",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 208 نص السؤال",
+    "answer": "الإجابة 208",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "easy"
+  },
+  {
+    "id": "music-209",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 209 نص السؤال",
+    "answer": "الإجابة 209",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-210",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 210 نص السؤال",
+    "answer": "الإجابة 210",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-211",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 211 نص السؤال",
+    "answer": "الإجابة 211",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "music-212",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 212 نص السؤال",
+    "answer": "الإجابة 212",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-213",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 213 نص السؤال",
+    "answer": "الإجابة 213",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "music-214",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 214 نص السؤال",
+    "answer": "الإجابة 214",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "easy"
+  },
+  {
+    "id": "music-215",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 215 نص السؤال",
+    "answer": "الإجابة 215",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "music-216",
+    "categorySlug": "music",
+    "text": "سؤال music رقم 216 نص السؤال",
+    "answer": "الإجابة 216",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "science-217",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 217 نص السؤال",
+    "answer": "الإجابة 217",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "easy"
+  },
+  {
+    "id": "science-218",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 218 نص السؤال",
+    "answer": "الإجابة 218",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "medium"
+  },
+  {
+    "id": "science-219",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 219 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "hard"
+  },
+  {
+    "id": "science-220",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 220 نص السؤال",
+    "answer": "الإجابة 220",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "easy",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "science-221",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 221 نص السؤال",
+    "answer": "الإجابة 221",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "medium",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "science-222",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 222 نص السؤال",
+    "answer": "الإجابة 222",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "hard"
+  },
+  {
+    "id": "science-223",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 223 نص السؤال",
+    "answer": "الإجابة 223",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "easy",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "science-224",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 224 نص السؤال",
+    "answer": "الإجابة 224",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "medium"
+  },
+  {
+    "id": "science-225",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 225 نص السؤال",
+    "answer": "الإجابة 225",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "hard"
+  },
+  {
+    "id": "science-226",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 226 نص السؤال",
+    "answer": "الإجابة 226",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "easy"
+  },
+  {
+    "id": "science-227",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 227 نص السؤال",
+    "answer": "الإجابة 227",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "medium"
+  },
+  {
+    "id": "science-228",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 228 نص السؤال",
+    "answer": "الإجابة 228",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "hard"
+  },
+  {
+    "id": "science-229",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 229 نص السؤال",
+    "answer": "الإجابة 229",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "easy"
+  },
+  {
+    "id": "science-230",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 230 نص السؤال",
+    "answer": "الإجابة 230",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "science-231",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 231 نص السؤال",
+    "answer": "الإجابة 231",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "hard"
+  },
+  {
+    "id": "science-232",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 232 نص السؤال",
+    "answer": "الإجابة 232",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "science-233",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 233 نص السؤال",
+    "answer": "الإجابة 233",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "science-234",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 234 نص السؤال",
+    "answer": "الإجابة 234",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "hard"
+  },
+  {
+    "id": "science-235",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 235 نص السؤال",
+    "answer": "الإجابة 235",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "easy"
+  },
+  {
+    "id": "science-236",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 236 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "medium"
+  },
+  {
+    "id": "science-237",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 237 نص السؤال",
+    "answer": "الإجابة 237",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "hard",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "science-238",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 238 نص السؤال",
+    "answer": "الإجابة 238",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "easy",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "science-239",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 239 نص السؤال",
+    "answer": "الإجابة 239",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "medium"
+  },
+  {
+    "id": "science-240",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 240 نص السؤال",
+    "answer": "الإجابة 240",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "science-241",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 241 نص السؤال",
+    "answer": "الإجابة 241",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "easy"
+  },
+  {
+    "id": "science-242",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 242 نص السؤال",
+    "answer": "الإجابة 242",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "medium"
+  },
+  {
+    "id": "science-243",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 243 نص السؤال",
+    "answer": "الإجابة 243",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "hard"
+  },
+  {
+    "id": "science-244",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 244 نص السؤال",
+    "answer": "الإجابة 244",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "easy"
+  },
+  {
+    "id": "science-245",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 245 نص السؤال",
+    "answer": "الإجابة 245",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "science-246",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 246 نص السؤال",
+    "answer": "الإجابة 246",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "hard"
+  },
+  {
+    "id": "science-247",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 247 نص السؤال",
+    "answer": "الإجابة 247",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "science-248",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 248 نص السؤال",
+    "answer": "الإجابة 248",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "medium"
+  },
+  {
+    "id": "science-249",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 249 نص السؤال",
+    "answer": "الإجابة 249",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "science-250",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 250 نص السؤال",
+    "answer": "الإجابة 250",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "science-251",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 251 نص السؤال",
+    "answer": "الإجابة 251",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "medium"
+  },
+  {
+    "id": "science-252",
+    "categorySlug": "science",
+    "text": "سؤال science رقم 252 نص السؤال",
+    "answer": "الإجابة 252",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "hard"
+  },
+  {
+    "id": "culture-253",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 253 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "easy"
+  },
+  {
+    "id": "culture-254",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 254 نص السؤال",
+    "answer": "الإجابة 254",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "medium",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "culture-255",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 255 نص السؤال",
+    "answer": "الإجابة 255",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "hard",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "culture-256",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 256 نص السؤال",
+    "answer": "الإجابة 256",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "easy"
+  },
+  {
+    "id": "culture-257",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 257 نص السؤال",
+    "answer": "الإجابة 257",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "culture-258",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 258 نص السؤال",
+    "answer": "الإجابة 258",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "hard"
+  },
+  {
+    "id": "culture-259",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 259 نص السؤال",
+    "answer": "الإجابة 259",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "easy"
+  },
+  {
+    "id": "culture-260",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 260 نص السؤال",
+    "answer": "الإجابة 260",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "medium"
+  },
+  {
+    "id": "culture-261",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 261 نص السؤال",
+    "answer": "الإجابة 261",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "hard"
+  },
+  {
+    "id": "culture-262",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 262 نص السؤال",
+    "answer": "الإجابة 262",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "culture-263",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 263 نص السؤال",
+    "answer": "الإجابة 263",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "medium"
+  },
+  {
+    "id": "culture-264",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 264 نص السؤال",
+    "answer": "الإجابة 264",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "culture-265",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 265 نص السؤال",
+    "answer": "الإجابة 265",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "easy"
+  },
+  {
+    "id": "culture-266",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 266 نص السؤال",
+    "answer": "الإجابة 266",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "culture-267",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 267 نص السؤال",
+    "answer": "الإجابة 267",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "culture-268",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 268 نص السؤال",
+    "answer": "الإجابة 268",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "easy"
+  },
+  {
+    "id": "culture-269",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 269 نص السؤال",
+    "answer": "الإجابة 269",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "medium"
+  },
+  {
+    "id": "culture-270",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 270 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "hard"
+  },
+  {
+    "id": "culture-271",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 271 نص السؤال",
+    "answer": "الإجابة 271",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "easy",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "culture-272",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 272 نص السؤال",
+    "answer": "الإجابة 272",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "medium",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "culture-273",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 273 نص السؤال",
+    "answer": "الإجابة 273",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "hard"
+  },
+  {
+    "id": "culture-274",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 274 نص السؤال",
+    "answer": "الإجابة 274",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "easy",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "culture-275",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 275 نص السؤال",
+    "answer": "الإجابة 275",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "medium"
+  },
+  {
+    "id": "culture-276",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 276 نص السؤال",
+    "answer": "الإجابة 276",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "hard"
+  },
+  {
+    "id": "culture-277",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 277 نص السؤال",
+    "answer": "الإجابة 277",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "easy"
+  },
+  {
+    "id": "culture-278",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 278 نص السؤال",
+    "answer": "الإجابة 278",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "medium"
+  },
+  {
+    "id": "culture-279",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 279 نص السؤال",
+    "answer": "الإجابة 279",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "hard"
+  },
+  {
+    "id": "culture-280",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 280 نص السؤال",
+    "answer": "الإجابة 280",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "easy"
+  },
+  {
+    "id": "culture-281",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 281 نص السؤال",
+    "answer": "الإجابة 281",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "culture-282",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 282 نص السؤال",
+    "answer": "الإجابة 282",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "hard"
+  },
+  {
+    "id": "culture-283",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 283 نص السؤال",
+    "answer": "الإجابة 283",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "culture-284",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 284 نص السؤال",
+    "answer": "الإجابة 284",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "culture-285",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 285 نص السؤال",
+    "answer": "الإجابة 285",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "hard"
+  },
+  {
+    "id": "culture-286",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 286 نص السؤال",
+    "answer": "الإجابة 286",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "easy"
+  },
+  {
+    "id": "culture-287",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 287 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "medium"
+  },
+  {
+    "id": "culture-288",
+    "categorySlug": "culture",
+    "text": "سؤال culture رقم 288 نص السؤال",
+    "answer": "الإجابة 288",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "hard",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "egyptian-food-289",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 289 نص السؤال",
+    "answer": "الإجابة 289",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "easy",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "egyptian-food-290",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 290 نص السؤال",
+    "answer": "الإجابة 290",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "medium"
+  },
+  {
+    "id": "egyptian-food-291",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 291 نص السؤال",
+    "answer": "الإجابة 291",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "egyptian-food-292",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 292 نص السؤال",
+    "answer": "الإجابة 292",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "easy"
+  },
+  {
+    "id": "egyptian-food-293",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 293 نص السؤال",
+    "answer": "الإجابة 293",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "medium"
+  },
+  {
+    "id": "egyptian-food-294",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 294 نص السؤال",
+    "answer": "الإجابة 294",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "hard"
+  },
+  {
+    "id": "egyptian-food-295",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 295 نص السؤال",
+    "answer": "الإجابة 295",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "easy"
+  },
+  {
+    "id": "egyptian-food-296",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 296 نص السؤال",
+    "answer": "الإجابة 296",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "egyptian-food-297",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 297 نص السؤال",
+    "answer": "الإجابة 297",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "hard"
+  },
+  {
+    "id": "egyptian-food-298",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 298 نص السؤال",
+    "answer": "الإجابة 298",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "egyptian-food-299",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 299 نص السؤال",
+    "answer": "الإجابة 299",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "medium"
+  },
+  {
+    "id": "egyptian-food-300",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 300 نص السؤال",
+    "answer": "الإجابة 300",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "egyptian-food-301",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 301 نص السؤال",
+    "answer": "الإجابة 301",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "egyptian-food-302",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 302 نص السؤال",
+    "answer": "الإجابة 302",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "medium"
+  },
+  {
+    "id": "egyptian-food-303",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 303 نص السؤال",
+    "answer": "الإجابة 303",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "hard"
+  },
+  {
+    "id": "egyptian-food-304",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 304 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "easy"
+  },
+  {
+    "id": "egyptian-food-305",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 305 نص السؤال",
+    "answer": "الإجابة 305",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "medium",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "egyptian-food-306",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 306 نص السؤال",
+    "answer": "الإجابة 306",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "hard",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "egyptian-food-307",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 307 نص السؤال",
+    "answer": "الإجابة 307",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "easy"
+  },
+  {
+    "id": "egyptian-food-308",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 308 نص السؤال",
+    "answer": "الإجابة 308",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "egyptian-food-309",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 309 نص السؤال",
+    "answer": "الإجابة 309",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "hard"
+  },
+  {
+    "id": "egyptian-food-310",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 310 نص السؤال",
+    "answer": "الإجابة 310",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "easy"
+  },
+  {
+    "id": "egyptian-food-311",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 311 نص السؤال",
+    "answer": "الإجابة 311",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "medium"
+  },
+  {
+    "id": "egyptian-food-312",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 312 نص السؤال",
+    "answer": "الإجابة 312",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "hard"
+  },
+  {
+    "id": "egyptian-food-313",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 313 نص السؤال",
+    "answer": "الإجابة 313",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "egyptian-food-314",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 314 نص السؤال",
+    "answer": "الإجابة 314",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "medium"
+  },
+  {
+    "id": "egyptian-food-315",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 315 نص السؤال",
+    "answer": "الإجابة 315",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "egyptian-food-316",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 316 نص السؤال",
+    "answer": "الإجابة 316",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "easy"
+  },
+  {
+    "id": "egyptian-food-317",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 317 نص السؤال",
+    "answer": "الإجابة 317",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "egyptian-food-318",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 318 نص السؤال",
+    "answer": "الإجابة 318",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "egyptian-food-319",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 319 نص السؤال",
+    "answer": "الإجابة 319",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "easy"
+  },
+  {
+    "id": "egyptian-food-320",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 320 نص السؤال",
+    "answer": "الإجابة 320",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "medium"
+  },
+  {
+    "id": "egyptian-food-321",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 321 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "hard"
+  },
+  {
+    "id": "egyptian-food-322",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 322 نص السؤال",
+    "answer": "الإجابة 322",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "easy",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "egyptian-food-323",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 323 نص السؤال",
+    "answer": "الإجابة 323",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "medium",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "egyptian-food-324",
+    "categorySlug": "egyptian-food",
+    "text": "سؤال egyptian-food رقم 324 نص السؤال",
+    "answer": "الإجابة 324",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ramadan-series-325",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 325 نص السؤال",
+    "answer": "الإجابة 325",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "easy",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "ramadan-series-326",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 326 نص السؤال",
+    "answer": "الإجابة 326",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ramadan-series-327",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 327 نص السؤال",
+    "answer": "الإجابة 327",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ramadan-series-328",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 328 نص السؤال",
+    "answer": "الإجابة 328",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ramadan-series-329",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 329 نص السؤال",
+    "answer": "الإجابة 329",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ramadan-series-330",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 330 نص السؤال",
+    "answer": "الإجابة 330",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ramadan-series-331",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 331 نص السؤال",
+    "answer": "الإجابة 331",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ramadan-series-332",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 332 نص السؤال",
+    "answer": "الإجابة 332",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ramadan-series-333",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 333 نص السؤال",
+    "answer": "الإجابة 333",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ramadan-series-334",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 334 نص السؤال",
+    "answer": "الإجابة 334",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ramadan-series-335",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 335 نص السؤال",
+    "answer": "الإجابة 335",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ramadan-series-336",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 336 نص السؤال",
+    "answer": "الإجابة 336",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ramadan-series-337",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 337 نص السؤال",
+    "answer": "الإجابة 337",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ramadan-series-338",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 338 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ramadan-series-339",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 339 نص السؤال",
+    "answer": "الإجابة 339",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "hard",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "ramadan-series-340",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 340 نص السؤال",
+    "answer": "الإجابة 340",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "easy",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "ramadan-series-341",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 341 نص السؤال",
+    "answer": "الإجابة 341",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ramadan-series-342",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 342 نص السؤال",
+    "answer": "الإجابة 342",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "ramadan-series-343",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 343 نص السؤال",
+    "answer": "الإجابة 343",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ramadan-series-344",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 344 نص السؤال",
+    "answer": "الإجابة 344",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ramadan-series-345",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 345 نص السؤال",
+    "answer": "الإجابة 345",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ramadan-series-346",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 346 نص السؤال",
+    "answer": "الإجابة 346",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ramadan-series-347",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 347 نص السؤال",
+    "answer": "الإجابة 347",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ramadan-series-348",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 348 نص السؤال",
+    "answer": "الإجابة 348",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ramadan-series-349",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 349 نص السؤال",
+    "answer": "الإجابة 349",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ramadan-series-350",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 350 نص السؤال",
+    "answer": "الإجابة 350",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ramadan-series-351",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 351 نص السؤال",
+    "answer": "الإجابة 351",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ramadan-series-352",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 352 نص السؤال",
+    "answer": "الإجابة 352",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ramadan-series-353",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 353 نص السؤال",
+    "answer": "الإجابة 353",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ramadan-series-354",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 354 نص السؤال",
+    "answer": "الإجابة 354",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ramadan-series-355",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 355 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ramadan-series-356",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 356 نص السؤال",
+    "answer": "الإجابة 356",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "medium",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "ramadan-series-357",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 357 نص السؤال",
+    "answer": "الإجابة 357",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "hard",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "ramadan-series-358",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 358 نص السؤال",
+    "answer": "الإجابة 358",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ramadan-series-359",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 359 نص السؤال",
+    "answer": "الإجابة 359",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "ramadan-series-360",
+    "categorySlug": "ramadan-series",
+    "text": "سؤال ramadan-series رقم 360 نص السؤال",
+    "answer": "الإجابة 360",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "hard"
+  },
+  {
+    "id": "national-songs-361",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 361 نص السؤال",
+    "answer": "الإجابة 361",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "easy"
+  },
+  {
+    "id": "national-songs-362",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 362 نص السؤال",
+    "answer": "الإجابة 362",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "medium"
+  },
+  {
+    "id": "national-songs-363",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 363 نص السؤال",
+    "answer": "الإجابة 363",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "hard"
+  },
+  {
+    "id": "national-songs-364",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 364 نص السؤال",
+    "answer": "الإجابة 364",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "national-songs-365",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 365 نص السؤال",
+    "answer": "الإجابة 365",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "medium"
+  },
+  {
+    "id": "national-songs-366",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 366 نص السؤال",
+    "answer": "الإجابة 366",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "national-songs-367",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 367 نص السؤال",
+    "answer": "الإجابة 367",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "easy"
+  },
+  {
+    "id": "national-songs-368",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 368 نص السؤال",
+    "answer": "الإجابة 368",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "national-songs-369",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 369 نص السؤال",
+    "answer": "الإجابة 369",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "hard"
+  },
+  {
+    "id": "national-songs-370",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 370 نص السؤال",
+    "answer": "الإجابة 370",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "easy"
+  },
+  {
+    "id": "national-songs-371",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 371 نص السؤال",
+    "answer": "الإجابة 371",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "medium"
+  },
+  {
+    "id": "national-songs-372",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 372 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "hard"
+  },
+  {
+    "id": "national-songs-373",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 373 نص السؤال",
+    "answer": "الإجابة 373",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "easy",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "national-songs-374",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 374 نص السؤال",
+    "answer": "الإجابة 374",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "medium",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "national-songs-375",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 375 نص السؤال",
+    "answer": "الإجابة 375",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "hard"
+  },
+  {
+    "id": "national-songs-376",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 376 نص السؤال",
+    "answer": "الإجابة 376",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "easy",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "national-songs-377",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 377 نص السؤال",
+    "answer": "الإجابة 377",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "medium"
+  },
+  {
+    "id": "national-songs-378",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 378 نص السؤال",
+    "answer": "الإجابة 378",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "hard"
+  },
+  {
+    "id": "national-songs-379",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 379 نص السؤال",
+    "answer": "الإجابة 379",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "easy"
+  },
+  {
+    "id": "national-songs-380",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 380 نص السؤال",
+    "answer": "الإجابة 380",
+    "acceptedAnswers": [],
+    "type": "proverb",
+    "difficulty": "medium"
+  },
+  {
+    "id": "national-songs-381",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 381 نص السؤال",
+    "answer": "الإجابة 381",
+    "acceptedAnswers": [],
+    "type": "actor",
+    "difficulty": "hard"
+  },
+  {
+    "id": "national-songs-382",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 382 نص السؤال",
+    "answer": "الإجابة 382",
+    "acceptedAnswers": [],
+    "type": "reversed",
+    "difficulty": "easy"
+  },
+  {
+    "id": "national-songs-383",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 383 نص السؤال",
+    "answer": "الإجابة 383",
+    "acceptedAnswers": [],
+    "type": "reversed_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "national-songs-384",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 384 نص السؤال",
+    "answer": "الإجابة 384",
+    "acceptedAnswers": [],
+    "type": "description",
+    "difficulty": "hard"
+  },
+  {
+    "id": "national-songs-385",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 385 نص السؤال",
+    "answer": "الإجابة 385",
+    "acceptedAnswers": [],
+    "type": "song",
+    "difficulty": "easy"
+  },
+  {
+    "id": "national-songs-386",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 386 نص السؤال",
+    "answer": "الإجابة 386",
+    "acceptedAnswers": [],
+    "type": "singer_song",
+    "difficulty": "medium"
+  },
+  {
+    "id": "national-songs-387",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 387 نص السؤال",
+    "answer": "الإجابة 387",
+    "acceptedAnswers": [],
+    "type": "movie_line",
+    "difficulty": "hard"
+  },
+  {
+    "id": "national-songs-388",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 388 نص السؤال",
+    "answer": "الإجابة 388",
+    "acceptedAnswers": [],
+    "type": "movie_scene",
+    "difficulty": "easy"
+  },
+  {
+    "id": "national-songs-389",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 389 نص السؤال",
+    "answer": "42",
+    "acceptedAnswers": [],
+    "type": "number_guess",
+    "difficulty": "medium"
+  },
+  {
+    "id": "national-songs-390",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 390 نص السؤال",
+    "answer": "الإجابة 390",
+    "acceptedAnswers": [],
+    "type": "flag",
+    "difficulty": "hard",
+    "mediaUrl": "/media/flags/eg.svg",
+    "mediaType": "image",
+    "mediaCredit": "Wikimedia Commons — Public Domain"
+  },
+  {
+    "id": "national-songs-391",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 391 نص السؤال",
+    "answer": "الإجابة 391",
+    "acceptedAnswers": [],
+    "type": "city_image",
+    "difficulty": "easy",
+    "mediaUrl": "/media/cities/cairo.jpg",
+    "mediaType": "image",
+    "mediaCredit": "Author — CC BY-SA 4.0 — Wikimedia Commons"
+  },
+  {
+    "id": "national-songs-392",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 392 نص السؤال",
+    "answer": "الإجابة 392",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "medium"
+  },
+  {
+    "id": "national-songs-393",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 393 نص السؤال",
+    "answer": "الإجابة 393",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "أ",
+      "ب",
+      "ج",
+      "د"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "national-songs-394",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 394 نص السؤال",
+    "answer": "الإجابة 394",
+    "acceptedAnswers": [],
+    "type": "true_false",
+    "difficulty": "easy"
+  },
+  {
+    "id": "national-songs-395",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 395 نص السؤال",
+    "answer": "الإجابة 395",
+    "acceptedAnswers": [],
+    "type": "capital",
+    "difficulty": "medium"
+  },
+  {
+    "id": "national-songs-396",
+    "categorySlug": "national-songs",
+    "text": "سؤال national-songs رقم 396 نص السؤال",
+    "answer": "الإجابة 396",
+    "acceptedAnswers": [],
+    "type": "quote",
+    "difficulty": "hard"
+  },
+  {
+    "id": "general-extra-0",
+    "categorySlug": "general",
+    "text": "سؤال إضافي 397 نص السؤال",
+    "answer": "الإجابة 397",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sport-extra-1",
+    "categorySlug": "sport",
+    "text": "سؤال إضافي 398 نص السؤال",
+    "answer": "الإجابة 398",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "easy"
+  },
+  {
+    "id": "history-extra-2",
+    "categorySlug": "history",
+    "text": "سؤال إضافي 399 نص السؤال",
+    "answer": "الإجابة 399",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "easy"
+  },
+  {
+    "id": "geography-extra-3",
+    "categorySlug": "geography",
+    "text": "سؤال إضافي 400 نص السؤال",
+    "answer": "الإجابة 400",
+    "acceptedAnswers": [],
+    "type": "open",
+    "difficulty": "easy"
+  }
+]

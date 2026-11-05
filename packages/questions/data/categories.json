@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "general",
+    "name": "معلومات عامة"
+  },
+  {
+    "slug": "sport",
+    "name": "رياضة"
+  },
+  {
+    "slug": "history",
+    "name": "تاريخ"
+  },
+  {
+    "slug": "geography",
+    "name": "جغرافيا"
+  },
+  {
+    "slug": "cinema",
+    "name": "أفلام ومسلسلات"
+  },
+  {
+    "slug": "music",
+    "name": "موسيقى"
+  },
+  {
+    "slug": "science",
+    "name": "علوم"
+  },
+  {
+    "slug": "culture",
+    "name": "ثقافة"
+  },
+  {
+    "slug": "egyptian-food",
+    "name": "أكل مصري"
+  },
+  {
+    "slug": "ramadan-series",
+    "name": "مسلسلات رمضان"
+  },
+  {
+    "slug": "national-songs",
+    "name": "أغاني وطنية"
+  }
+]
