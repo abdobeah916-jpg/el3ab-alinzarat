@@ -2,11 +2,12 @@ import type { Server, Socket } from "socket.io";
 import { toJudgeView, toPlayerView } from "./projection";
 import type { CommandService } from "./commands";
 import type { RoomService } from "./rooms/roomService";
+import { RoomTimers } from "./timers";
 
 type Role = "judge" | "player";
 
 /** Emit each socket the view it is allowed to see (judge keeps answers, players never get them). */
-function broadcastState(io: Server, code: string, state: any): void {
+export function broadcastState(io: Server, code: string, state: any): void {
   const room = io.sockets.adapter.rooms.get(`room:${code}`);
   if (!room) return;
   for (const socketId of room) {
@@ -19,6 +20,24 @@ function broadcastState(io: Server, code: string, state: any): void {
 }
 
 export function attachSocket(io: Server, deps: { commands: CommandService; rooms: RoomService; store: any }): void {
+  const timers = new RoomTimers({
+    onDeadline: async (code: string) => {
+      const rec = await deps.store.get(code);
+      if (!rec) return;
+      const res = await deps.commands.execute(code, {
+        id: `deadline:${code}:${rec.state.seq}`,
+        actorId: "system",
+        role: "system",
+        expectedState: rec.state.state,
+        command: { type: "system:deadline" },
+      } as any);
+      if (res.ok && res.state) {
+        broadcastState(io, code, res.state);
+        timers.schedule(code, res.state);
+      }
+    },
+  });
+
   io.on("connection", (socket: Socket) => {
     const auth = socket.handshake.auth as any;
     const code = auth?.code as string;
@@ -33,6 +52,7 @@ export function attachSocket(io: Server, deps: { commands: CommandService; rooms
       socket.join(`room:${code}`);
       const rec = await deps.store.get(code);
       if (rec) {
+        timers.schedule(code, rec.state);
         socket.emit("state:patch", a.role === "judge" ? toJudgeView(rec.state) : toPlayerView(rec.state, a.playerId!));
         broadcastState(io, code, rec.state);
       }
@@ -40,6 +60,7 @@ export function attachSocket(io: Server, deps: { commands: CommandService; rooms
         if (envelope.actorId !== a.playerId && a.role !== "judge") return ack?.({ ok: false, code: "not_allowed" });
         const res = await deps.commands.execute(code, { ...envelope, role: a.role });
         if (res.ok && res.state) {
+          timers.schedule(code, res.state);
           broadcastState(io, code, res.state);
         }
         ack?.({
