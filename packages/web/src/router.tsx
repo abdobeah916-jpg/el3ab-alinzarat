@@ -5,6 +5,7 @@ import { Lobby } from "./pages/Lobby";
 import { JudgeRoom } from "./pages/JudgeRoom";
 import { PlayerRoom } from "./pages/PlayerRoom";
 import { AdminQuestions } from "./pages/AdminQuestions";
+import { Display } from "./pages/Display";
 import { BusRound } from "./pages/BusRound";
 import { RumbleRound } from "./pages/RumbleRound";
 import { loadSession } from "./lib/tokenStore";
@@ -16,12 +17,13 @@ export function Router() {
       <Route path="/" element={<Home />} />
       <Route path="/join" element={<Join />} />
       <Route path="/join/:code" element={<Join />} />
+      <Route path="/room/:code/display" element={!session ? <Navigate to="/join" replace /> : <Display />} />
       <Route path="/room/:code" element={!session ? <Navigate to="/join" replace /> : session.role === "judge" ? <JudgeRoom /> : <PlayerRoom />} />
       <Route path="/room/:code/bus" element={<BusRound />} />
       <Route path="/room/:code/rumble" element={<RumbleRound />} />
       <Route path="/lobby" element={<Lobby />} />
-      <Route path="/admin/questions" element={<AdminQuestions />} />
-      <Route path="*" element={<div style={{ padding: 24 }}>الصفحة مش موجودة</div>} />
+      <Route path="/admin/questions" element={<AdminQuestions api={undefined} />} />
+      <Route path="*" element={<div className="screen" style={{ paddingBlock: 80 }}><h1>الصفحة مش موجودة</h1><a className="btn btn--gold" href="/">ارجع للرئيسية</a></div>} />
     </Routes>
   );
 }

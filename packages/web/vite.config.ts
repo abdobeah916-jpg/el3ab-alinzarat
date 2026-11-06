@@ -26,4 +26,4 @@ export default defineConfig({
   ],
   server: { proxy: { "/api": "http://localhost:3000", "/socket.io": "http://localhost:3000" } },
   test: { environment: "jsdom", globals: true, setupFiles: ["./test/setup.ts"] }
-});
+} as any);

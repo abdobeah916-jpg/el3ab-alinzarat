@@ -1,9 +1,9 @@
 export function MediaCard({ src, credit }: { src?: string; credit?: string }) {
   if (!src) return null;
   return (
-    <figure>
+    <figure className="question-media">
       <img src={src} alt="" />
-      <figcaption>{credit}</figcaption>
+      {credit && <figcaption>{credit}</figcaption>}
     </figure>
   );
 }

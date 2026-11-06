@@ -1,13 +1,18 @@
 export function QuestionCard({ question, showAnswer }: { question: any; showAnswer?: boolean }) {
-  if (!question) return <div>مفيش سؤال</div>;
+  if (!question) return <p className="question question--waiting">مفيش سؤال لسه…</p>;
   return (
-    <div style={{ border: "1px solid var(--gold)", borderRadius: 16, padding: 16 }}>
-      <div>{question.text}</div>
-      {showAnswer && <div data-testid="question-answer">{question.answer}</div>}
+    <div className="stack">
+      <p className="question">{question.text}</p>
+      {showAnswer && (
+        <div className="answer" data-testid="question-answer">
+          <span className="answer__label">الإجابة الصح</span>
+          <span className="answer__text">{question.answer}</span>
+        </div>
+      )}
       {question.mediaUrl && (
-        <figure>
+        <figure className="question-media">
           <img src={question.mediaUrl} alt={question.text} />
-          <figcaption>{question.mediaCredit}</figcaption>
+          {question.mediaCredit && <figcaption>{question.mediaCredit}</figcaption>}
         </figure>
       )}
     </div>
