@@ -7,7 +7,8 @@ import { createAdminRouter } from "./admin";
 
 export function createApp(deps: { rooms: RoomService; questions?: MemoryQuestionRepository; adminKey?: string }): express.Express {
   const app = express();
-  app.use(cors({ origin: process.env.CORS_ORIGIN?.split(",") ?? true }));
+  const origins = (process.env.CORS_ORIGIN ?? "").split(",").map((s) => s.trim()).filter(Boolean);
+  app.use(cors({ origin: origins.length === 0 || origins.includes("*") ? true : origins }));
   app.use(express.json({ limit: "64kb" }));
   app.get("/api/health", (_req, res) => res.json({ ok: true }));
   const RoomBody = z.object({ settings: z.record(z.unknown()).optional() });

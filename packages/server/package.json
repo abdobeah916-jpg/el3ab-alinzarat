@@ -2,7 +2,7 @@
   "name": "@casino/server",
   "version": "0.1.0",
   "type": "module",
-  "scripts": { "test": "vitest run", "lint": "tsc --noEmit", "build": "tsc --noEmit", "dev": "node --loader ts-node/esm src/index.ts 2>&1 | head -n 5", "start": "node dist/index.js" },
-  "dependencies": { "@casino/shared": "workspace:*", "@casino/game-core": "workspace:*", "express": "^5.1.0", "socket.io": "^4.8.1", "zod": "^3.25.76", "cors": "^2.8.5" },
+  "scripts": { "test": "vitest run", "lint": "tsc --noEmit", "build": "tsc --noEmit", "dev": "node --import tsx src/index.ts", "start": "node --import tsx src/index.ts" },
+  "dependencies": { "@casino/shared": "workspace:*", "@casino/game-core": "workspace:*", "@casino/questions": "workspace:*", "express": "^5.1.0", "socket.io": "^4.8.1", "zod": "^3.25.76", "cors": "^2.8.5", "tsx": "^4.20.3" },
   "devDependencies": { "vitest": "^3.2.4", "typescript": "^5.9.3", "supertest": "^7.1.4", "@types/express": "^5.0.1", "@types/cors": "^2.8.17", "@types/supertest": "^6.0.3" }
 }

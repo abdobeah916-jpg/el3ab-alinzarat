@@ -15,7 +15,7 @@ export function BusRound({ view, send }: { view?: any; send?: any } = {}) {
       {submitted ? <div>وصلت إجاباتك</div> : (
         <button onClick={() => send?.({ type: "player:submitRound", payload: { kind: "bus", answers: values } })}>إرسال</button>
       )}
-      {!confirmedBus ? <button aria-label="أتوبيس!" onClick={() => setConfirmBus(true)}>أتوبيس!</button> : (
+      {!confirmBus ? <button aria-label="أتوبيس!" onClick={() => setConfirmBus(true)}>أتوبيس!</button> : (
         <button aria-label="أيوه، أتوبيس" onClick={() => send?.({ type: "player:callBus" })}>أيوه، أتوبيس</button>
       )}
     </div>
