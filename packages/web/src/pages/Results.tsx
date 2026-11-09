@@ -4,7 +4,7 @@ import { ArrowIcon, CrownIcon, TrophyIcon } from "../components/icons";
 
 const COLORS = ["#F2B01E", "#F5C542", "#D92B2B", "#39D353", "#2FA8FF", "#F7F3EA"];
 
-function Confetti({ count = 46 }: { count?: number }) {
+export function Confetti({ count = 46 }: { count?: number }) {
   const pieces = useMemo(
     () =>
       Array.from({ length: count }, (_, i) => ({

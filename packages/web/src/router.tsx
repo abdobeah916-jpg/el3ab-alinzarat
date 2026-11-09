@@ -8,6 +8,7 @@ import { AdminQuestions } from "./pages/AdminQuestions";
 import { Display } from "./pages/Display";
 import { BusRound } from "./pages/BusRound";
 import { RumbleRound } from "./pages/RumbleRound";
+import { LocalRoom } from "./pages/LocalRoom";
 import { loadSession } from "./lib/tokenStore";
 
 export function Router() {
@@ -15,6 +16,7 @@ export function Router() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/local" element={<LocalRoom />} />
       <Route path="/join" element={<Join />} />
       <Route path="/join/:code" element={<Join />} />
       <Route path="/room/:code/display" element={!session ? <Navigate to="/join" replace /> : <Display />} />

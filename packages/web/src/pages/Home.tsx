@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { createRoom } from "../lib/api";
 import { saveSession } from "../lib/tokenStore";
-import { BellIcon, ChipIcon, ArrowIcon, CopyIcon } from "../components/icons";
+import { BellIcon, ChipIcon, ArrowIcon, CopyIcon, UsersIcon } from "../components/icons";
 
 export function Home() {
   const nav = useNavigate();
@@ -61,11 +61,19 @@ export function Home() {
               <BellIcon />
               {busy ? "بيجهّز الطاولة…" : "اعمل غرفة كحكم"}
             </button>
-            <button type="button" className="btn btn--lg" onClick={() => nav("/join")}>
+            <button type="button" className="btn btn--lg home__cta-local" onClick={() => nav("/local")}>
+              <UsersIcon />
+              العب على جهاز واحد
+            </button>
+            <button type="button" className="btn btn--lg btn--ghost" onClick={() => nav("/join")}>
               انضم كلاعب
               <ArrowIcon />
             </button>
           </div>
+
+          <p className="muted home__cta-note">
+            جهاز واحد؟ اختار <b>«العب على جهاز واحد»</b> — الحكم بيدخل اللاعبين ويحسب النقط بنفسه.
+          </p>
 
           {error && <p className="form-error" role="alert" style={{ marginTop: 14 }}>{error}</p>}
 
