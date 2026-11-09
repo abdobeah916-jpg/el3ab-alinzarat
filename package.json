@@ -8,7 +8,9 @@
     "pnpm": ">=9"
   },
   "scripts": {
-    "dev": "echo 'use pnpm --filter @casino/server dev'",
+    "dev": "pnpm -r --parallel run dev",
+    "dev:web": "pnpm --filter @casino/web dev",
+    "dev:server": "pnpm --filter @casino/server dev",
     "build": "pnpm -r build",
     "test": "pnpm -r test",
     "lint": "pnpm -r lint"

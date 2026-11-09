@@ -129,7 +129,7 @@ function LocalSetup({ state, onStart }: { state: LocalState; onStart: (names: st
         </div>
 
         <div className="local__hero">
-          <span className="eyebrow">بدون غرف · بدون أكواد · تليفون واحد</span>
+          <span className="eyebrow">لعب فردي · بدون غرف · بدون أكواد · تليفون واحد</span>
           <h1 className="title-xl">
             حكم واحد،
             <br />

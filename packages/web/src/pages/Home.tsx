@@ -63,7 +63,7 @@ export function Home() {
             </button>
             <button type="button" className="btn btn--lg home__cta-local" onClick={() => nav("/local")}>
               <UsersIcon />
-              العب على جهاز واحد
+              لعب فردي
             </button>
             <button type="button" className="btn btn--lg btn--ghost" onClick={() => nav("/join")}>
               انضم كلاعب
@@ -72,7 +72,7 @@ export function Home() {
           </div>
 
           <p className="muted home__cta-note">
-            جهاز واحد؟ اختار <b>«العب على جهاز واحد»</b> — الحكم بيدخل اللاعبين ويحسب النقط بنفسه.
+            <b>«لعب فردي»</b> يعني طاولة على تليفون واحد — الحكم بيدخل اللاعبين بنفسه ويحسب النقط والكروت من نفس الشاشة.
           </p>
 
           {error && <p className="form-error" role="alert" style={{ marginTop: 14 }}>{error}</p>}
