@@ -389,76 +389,16 @@
   {
     "id": "general-032",
     "categorySlug": "general",
-    "text": "أستراليا قارة ودولة في آنٍ واحد.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "general-033",
-    "categorySlug": "general",
-    "text": "أكبر دولة في العالم هي كندا.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "general-034",
-    "categorySlug": "general",
-    "text": "أكبر دولة في العالم هي روسيا.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "general-035",
-    "categorySlug": "general",
-    "text": "القطب الجنوبي أبرد من القطب الشمالي.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "general-036",
-    "categorySlug": "general",
-    "text": "الصين هي الدولة الأكثر سكانًا.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "general-037",
-    "categorySlug": "general",
     "text": "كم عدد أرجل الأخطبوط؟",
     "answer": "8",
     "acceptedAnswers": [
       "٨"
     ],
     "type": "number_guess",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "general-038",
+    "id": "general-033",
     "categorySlug": "general",
     "text": "كم سنة في قرن؟",
     "answer": "100",
@@ -469,25 +409,25 @@
     "difficulty": "hard"
   },
   {
-    "id": "general-039",
+    "id": "general-034",
     "categorySlug": "general",
     "text": "شيء يكبر كلما أخذت منه — إيه هو؟",
     "answer": "الحفرة",
     "acceptedAnswers": [],
     "type": "description",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "general-040",
+    "id": "general-035",
     "categorySlug": "general",
     "text": "شيء له رأس وذيل ولا جسم — إيه هو؟",
     "answer": "العملة",
     "acceptedAnswers": [],
     "type": "description",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "general-041",
+    "id": "general-036",
     "categorySlug": "general",
     "text": "شيء يرى كل شيء ولا عين له — إيه هو؟",
     "answer": "المرآة",
@@ -496,39 +436,39 @@
     "difficulty": "hard"
   },
   {
-    "id": "general-042",
+    "id": "general-037",
     "categorySlug": "general",
     "text": "أي من planets التالية هي الأكبر؟",
     "answer": "المشتري",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
       "الأرض",
       "المريخ",
-      "المشتري",
-      "زحل"
+      "زحل",
+      "المشتري"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
-    "id": "general-043",
+    "id": "general-038",
     "categorySlug": "general",
     "text": "ما اسم أطول سلسلة جبال في العالم؟",
     "answer": "الأنديز",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
-      "الروكي",
       "الأنديز",
-      "الهيمالايا",
-      "الأطلس"
+      "الروكي",
+      "الأطلس",
+      "الهيمالايا"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
-    "id": "general-044",
+    "id": "general-039",
     "categorySlug": "general",
     "text": "أي من هذه الحيوانات من الثدييات؟",
     "answer": "الحوت",
@@ -536,47 +476,47 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "الحوت",
       "القرش",
-      "الثعبان",
-      "النسر"
+      "النسر",
+      "الحوت",
+      "الثعبان"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
-    "id": "general-045",
+    "id": "general-040",
     "categorySlug": "general",
     "text": "ما اسم أكبر محيط في العالم؟",
     "answer": "الهادي",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
-      "الأطلسي",
+      "الهادي",
       "الهندي",
-      "المتجمد",
-      "الهادي"
+      "الأطلسي",
+      "المتجمد"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
-    "id": "general-046",
+    "id": "general-041",
     "categorySlug": "general",
     "text": "أي من هذه العناصر غاز؟",
     "answer": "الأكسجين",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
-      "الذهب",
+      "الحديد",
       "النحاس",
-      "الأكسجين",
-      "الحديد"
+      "الذهب",
+      "الأكسجين"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
-    "id": "general-047",
+    "id": "general-042",
     "categorySlug": "general",
     "text": "ما اسم القارة التي تقع فيها مصر؟",
     "answer": "أفريقيا",
@@ -584,47 +524,47 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
+      "أوروبا",
       "أمريكا",
       "أفريقيا",
-      "آسيا",
-      "أوروبا"
+      "آسيا"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
   },
   {
-    "id": "general-048",
+    "id": "general-043",
     "categorySlug": "general",
     "text": "أي من هذه الجبال الأعلى؟",
     "answer": "إيفرست",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
+      "مونت بلانك",
       "إيفرست",
       "K2",
-      "كليمنجارو",
-      "مونت بلانك"
+      "كليمنجارو"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
-    "id": "general-049",
+    "id": "general-044",
     "categorySlug": "general",
     "text": "ما اسم أطول نهر في العالم؟",
     "answer": "النيل",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
+      "النيل",
       "الأمازون",
       "المسيسيبي",
-      "اليانغتسي",
-      "النيل"
+      "اليانغتسي"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
-    "id": "general-050",
+    "id": "general-045",
     "categorySlug": "general",
     "text": "أي من هذه الدول لا تمتلك ساحلًا؟",
     "answer": "سويسرا",
@@ -632,28 +572,124 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "سويسرا",
+      "مصر",
       "السعودية",
       "العراق",
-      "مصر"
+      "سويسرا"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "general-046",
+    "categorySlug": "general",
+    "text": "ما اسم عاصمة فرنسا؟",
+    "answer": "باريس",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "روما",
+      "برلين",
+      "باريس",
+      "لندن"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "general-047",
+    "categorySlug": "general",
+    "text": "أي من planets التالية هي الأقرب للشمس؟",
+    "answer": "عطارد",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "المريخ",
+      "عطارد",
+      "الزهرة",
+      "الأرض"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "general-048",
+    "categorySlug": "general",
+    "text": "ما اسم أكبر كوكب في المجموعة الشمسية؟",
+    "answer": "المشتري",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "المشتري",
+      "زحل",
+      "الأرض",
+      "المريخ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "general-049",
+    "categorySlug": "general",
+    "text": "أي من هذه العناصر معدن؟",
+    "answer": "الحديد",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "الأكسجين",
+      "النيتروجين",
+      "الهيدروجين",
+      "الحديد"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "general-050",
+    "categorySlug": "general",
+    "text": "ما اسم أعمق بحيرة في العالم؟",
+    "answer": "بايكال",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "بايكال",
+      "فيكتوريا",
+      "تانغانيكا",
+      "سوبيريور"
     ],
     "correctIndex": 0
   },
   {
     "id": "general-051",
     "categorySlug": "general",
-    "text": "ما اسم عاصمة فرنسا؟",
-    "answer": "باريس",
+    "text": "أي من هذه الدول في آسيا؟",
+    "answer": "اليابان",
     "acceptedAnswers": [],
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "لندن",
-      "باريس",
-      "برلين",
-      "روما"
+      "مصر",
+      "اليابان",
+      "البرازيل",
+      "الجزائر"
     ],
     "correctIndex": 1
+  },
+  {
+    "id": "general-052",
+    "categorySlug": "general",
+    "text": "ما اسم أطول جدار في العالم؟",
+    "answer": "سور الصين",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "جدار هادريان",
+      "جدار برلين",
+      "سور الصين",
+      "جدار بابل"
+    ],
+    "correctIndex": 2
   },
   {
     "id": "sport-001",
@@ -911,126 +947,6 @@
   {
     "id": "sport-020",
     "categorySlug": "sport",
-    "text": "مدة مباراة كرة القدم ٩٠ دقيقة.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "sport-021",
-    "categorySlug": "sport",
-    "text": "التنس يُلعب بكرة قدم.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "sport-022",
-    "categorySlug": "sport",
-    "text": "سباق الماراثون حوالي ٤٢ كيلومترًا.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "sport-023",
-    "categorySlug": "sport",
-    "text": "كرة السلة فيها ٥ لاعبين لكل فريق.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "sport-024",
-    "categorySlug": "sport",
-    "text": "منتخب البرازيل فاز بكأس العالم ٥ مرات.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "sport-025",
-    "categorySlug": "sport",
-    "text": "الأولمبياد تُقام كل ٤ سنوات.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "sport-026",
-    "categorySlug": "sport",
-    "text": "محمد صلاح لاعب مصري.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "sport-027",
-    "categorySlug": "sport",
-    "text": "في الشطرنج يبدأ اللاعب الأبيض.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "sport-028",
-    "categorySlug": "sport",
-    "text": "الكريكيت رياضة شعبية في البرازيل.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "sport-029",
-    "categorySlug": "sport",
-    "text": "مصر فازت بكأس أمم أفريقيا ٧ مرات.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "sport-030",
-    "categorySlug": "sport",
     "text": "كم لاعبًا في فريق الكرة الطائرة؟",
     "answer": "6",
     "acceptedAnswers": [
@@ -1040,7 +956,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "sport-031",
+    "id": "sport-021",
     "categorySlug": "sport",
     "text": "كم لاعبًا في فريق كرة اليد داخل الملعب؟",
     "answer": "7",
@@ -1048,10 +964,10 @@
       "٧"
     ],
     "type": "number_guess",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "sport-032",
+    "id": "sport-022",
     "categorySlug": "sport",
     "text": "كم عدد الحلقات الأولمبية؟",
     "answer": "5",
@@ -1059,10 +975,10 @@
       "٥"
     ],
     "type": "number_guess",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "sport-033",
+    "id": "sport-023",
     "categorySlug": "sport",
     "text": "كم دقيقة في شوط كرة القدم؟",
     "answer": "45",
@@ -1073,7 +989,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "sport-034",
+    "id": "sport-024",
     "categorySlug": "sport",
     "text": "كم لاعبًا في فريق البيسبول داخل الملعب؟",
     "answer": "9",
@@ -1081,10 +997,10 @@
       "٩"
     ],
     "type": "number_guess",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "sport-035",
+    "id": "sport-025",
     "categorySlug": "sport",
     "text": "كم مرة فازت مصر بكأس أمم أفريقيا؟",
     "answer": "7",
@@ -1092,10 +1008,10 @@
       "٧"
     ],
     "type": "number_guess",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "sport-036",
+    "id": "sport-026",
     "categorySlug": "sport",
     "text": "كم لاعبًا في فريق الكريكيت؟",
     "answer": "11",
@@ -1106,7 +1022,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "sport-037",
+    "id": "sport-027",
     "categorySlug": "sport",
     "text": "كم عدد أشواط مباراة البيسبول؟",
     "answer": "9",
@@ -1114,19 +1030,19 @@
       "٩"
     ],
     "type": "number_guess",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "sport-038",
+    "id": "sport-028",
     "categorySlug": "sport",
     "text": "من فاز بكأس العالم 2018؟",
     "answer": "فرنسا",
     "acceptedAnswers": [],
     "type": "open",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "sport-039",
+    "id": "sport-029",
     "categorySlug": "sport",
     "text": "من فاز بكأس العالم 2014؟",
     "answer": "ألمانيا",
@@ -1135,16 +1051,16 @@
     "difficulty": "hard"
   },
   {
-    "id": "sport-040",
+    "id": "sport-030",
     "categorySlug": "sport",
     "text": "من فاز بكأس العالم 2006؟",
     "answer": "إيطاليا",
     "acceptedAnswers": [],
     "type": "open",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "sport-041",
+    "id": "sport-031",
     "categorySlug": "sport",
     "text": "ما اسم ملعب ريال مدريد؟",
     "answer": "سانتياغو برنابيو",
@@ -1152,10 +1068,10 @@
       "برنابيو"
     ],
     "type": "open",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "sport-042",
+    "id": "sport-032",
     "categorySlug": "sport",
     "text": "ما اسم ملعب برشلونة؟",
     "answer": "كامب نو",
@@ -1166,7 +1082,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "sport-043",
+    "id": "sport-033",
     "categorySlug": "sport",
     "text": "كم عدد بطولات كأس العالم التي فازت بها ألمانيا؟",
     "answer": "٤",
@@ -1175,10 +1091,10 @@
       "أربعة"
     ],
     "type": "open",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "sport-044",
+    "id": "sport-034",
     "categorySlug": "sport",
     "text": "من هو هداف كأس العالم 2022؟",
     "answer": "كيليان مبابي",
@@ -1186,10 +1102,10 @@
       "مبابي"
     ],
     "type": "open",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "sport-045",
+    "id": "sport-035",
     "categorySlug": "sport",
     "text": "من فاز بكأس أمم أوروبا 2020؟",
     "answer": "إيطاليا",
@@ -1198,7 +1114,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "sport-046",
+    "id": "sport-036",
     "categorySlug": "sport",
     "text": "من هو أفضل لاعب في كأس العالم 2022؟",
     "answer": "ليونيل ميسي",
@@ -1206,19 +1122,19 @@
       "ميسي"
     ],
     "type": "open",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "sport-047",
+    "id": "sport-037",
     "categorySlug": "sport",
     "text": "ما اسم نادي كريستيانو رونالدو (حالياً)؟",
     "answer": "النصر",
     "acceptedAnswers": [],
     "type": "open",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "sport-048",
+    "id": "sport-038",
     "categorySlug": "sport",
     "text": "أي دولة فازت بأول كأس عالم (1930)؟",
     "answer": "الأوروغواي",
@@ -1227,46 +1143,46 @@
     "difficulty": "hard",
     "options": [
       "البرازيل",
-      "إيطاليا",
+      "الأرجنتين",
       "الأوروغواي",
-      "الأرجنتين"
+      "إيطاليا"
     ],
     "correctIndex": 2
   },
   {
-    "id": "sport-049",
+    "id": "sport-039",
     "categorySlug": "sport",
     "text": "كم مرة فازت ألمانيا بكأس العالم؟",
     "answer": "٤",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
+      "٥",
       "٢",
-      "٤",
       "٣",
-      "٥"
+      "٤"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
-    "id": "sport-050",
+    "id": "sport-040",
     "categorySlug": "sport",
     "text": "أي نادي فاز بدوري أبطال أوروبا 2024؟",
     "answer": "ريال مدريد",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
       "ريال مدريد",
-      "دورتموند",
+      "مان سيتي",
       "بايرن",
-      "مان سيتي"
+      "دورتموند"
     ],
     "correctIndex": 0
   },
   {
-    "id": "sport-051",
+    "id": "sport-041",
     "categorySlug": "sport",
     "text": "من هو الهداف التاريخي لريال مدريد؟",
     "answer": "كريستيانو رونالدو",
@@ -1275,90 +1191,30 @@
     "difficulty": "hard",
     "options": [
       "راؤول",
-      "بنزيمة",
       "دي ستيفانو",
-      "كريستيانو رونالدو"
+      "كريستيانو رونالدو",
+      "بنزيمة"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
-    "id": "sport-052",
+    "id": "sport-042",
     "categorySlug": "sport",
     "text": "في أي رياضة يُستخدم مصطلح «إيس»؟",
     "answer": "التنس",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
-      "التنس",
       "البيسبول",
-      "الكريكيت",
-      "الجولف"
+      "الجولف",
+      "التنس",
+      "الكريكيت"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
-    "id": "sport-053",
-    "categorySlug": "sport",
-    "text": "كريستيانو رونالدو برتغالي.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "sport-054",
-    "categorySlug": "sport",
-    "text": "ليونيل ميسي فاز بكأس العالم 2022.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "sport-055",
-    "categorySlug": "sport",
-    "text": "البرازيل فازت بكأس العالم 6 مرات.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "sport-056",
-    "categorySlug": "sport",
-    "text": "التنس يُلعب على أرضية عشبية فقط.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "sport-057",
-    "categorySlug": "sport",
-    "text": "نهائي كأس العالم 2022 كان بين الأرجنتين وفرنسا.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "sport-058",
+    "id": "sport-043",
     "categorySlug": "sport",
     "text": "أي دولة فازت بكأس العالم 2022؟",
     "answer": "الأرجنتين",
@@ -1367,14 +1223,14 @@
     "difficulty": "medium",
     "options": [
       "البرازيل",
+      "ألمانيا",
       "فرنسا",
-      "الأرجنتين",
-      "ألمانيا"
+      "الأرجنتين"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
-    "id": "sport-059",
+    "id": "sport-044",
     "categorySlug": "sport",
     "text": "من هو هداف كأس العالم (تاريخياً)؟",
     "answer": "كلوزه",
@@ -1382,15 +1238,15 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "بيليه",
+      "كلوزه",
       "ميسي",
-      "رونالدو",
-      "كلوزه"
+      "بيليه",
+      "رونالدو"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
-    "id": "sport-060",
+    "id": "sport-045",
     "categorySlug": "sport",
     "text": "أي رياضة تُستخدم فيها الريشة؟",
     "answer": "تنس الريشة",
@@ -1398,15 +1254,15 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "تنس الريشة",
+      "التنس",
       "البادل",
-      "الاسكواش",
-      "التنس"
+      "تنس الريشة",
+      "الاسكواش"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
-    "id": "sport-061",
+    "id": "sport-046",
     "categorySlug": "sport",
     "text": "كم لاعبًا في فريق كرة السلة؟",
     "answer": "٥",
@@ -1414,15 +1270,15 @@
     "type": "mcq",
     "difficulty": "medium",
     "options": [
-      "٦",
-      "١١",
       "٥",
-      "٧"
+      "٧",
+      "٦",
+      "١١"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
-    "id": "sport-062",
+    "id": "sport-047",
     "categorySlug": "sport",
     "text": "أين أقيمت أول أولمبياد حديث؟",
     "answer": "أثينا",
@@ -1430,15 +1286,15 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "أثينا",
-      "لندن",
       "باريس",
-      "روما"
+      "روما",
+      "لندن",
+      "أثينا"
     ],
-    "correctIndex": 0
+    "correctIndex": 3
   },
   {
-    "id": "sport-063",
+    "id": "sport-048",
     "categorySlug": "sport",
     "text": "أي دولة فازت بكأس العالم 2018؟",
     "answer": "فرنسا",
@@ -1446,15 +1302,15 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "كرواتيا",
-      "ألمانيا",
       "البرازيل",
-      "فرنسا"
+      "ألمانيا",
+      "فرنسا",
+      "كرواتيا"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
-    "id": "sport-064",
+    "id": "sport-049",
     "categorySlug": "sport",
     "text": "من فاز بالكرة الذهبية 2023؟",
     "answer": "ميسي",
@@ -1462,15 +1318,15 @@
     "type": "mcq",
     "difficulty": "medium",
     "options": [
-      "ميسي",
       "De Bruyne",
-      "Mbappé",
-      "هالاند"
+      "ميسي",
+      "هالاند",
+      "Mbappé"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
-    "id": "sport-065",
+    "id": "sport-050",
     "categorySlug": "sport",
     "text": "أي نادي إنجليزي يُلقب بـ«الشياطين الحمر»؟",
     "answer": "مانشستر يونايتد",
@@ -1478,12 +1334,92 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "ليفربول",
-      "تشيلسي",
       "مانشستر يونايتد",
-      "أرسنال"
+      "ليفربول",
+      "أرسنال",
+      "تشيلسي"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
+  },
+  {
+    "id": "sport-051",
+    "categorySlug": "sport",
+    "text": "أي دولة فازت بكأس العالم 2014؟",
+    "answer": "ألمانيا",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "الأرجنتين",
+      "البرازيل",
+      "هولندا",
+      "ألمانيا"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "sport-052",
+    "categorySlug": "sport",
+    "text": "أي دولة فازت بكأس العالم 2006؟",
+    "answer": "إيطاليا",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "إيطاليا",
+      "ألمانيا",
+      "البرازيل",
+      "فرنسا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "sport-053",
+    "categorySlug": "sport",
+    "text": "من فاز بالكرة الذهبية 2022؟",
+    "answer": "بنزيمة",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "صلاح",
+      "بنزيمة",
+      "ميسي",
+      "Mbappé"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "sport-054",
+    "categorySlug": "sport",
+    "text": "أي نادي فاز بدوري أبطال أوروبا 2023؟",
+    "answer": "مان سيتي",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "مان سيتي",
+      "إنتر",
+      "ريال",
+      "بايرن"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "sport-055",
+    "categorySlug": "sport",
+    "text": "من هو هداف دوري أبطال أوروبا (تاريخياً)؟",
+    "answer": "رونالدو",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "ميسي",
+      "بنزيمة",
+      "راؤول",
+      "رونالدو"
+    ],
+    "correctIndex": 3
   },
   {
     "id": "history-001",
@@ -1827,138 +1763,6 @@
   {
     "id": "history-027",
     "categorySlug": "history",
-    "text": "نابليون كان إمبراطور فرنسا.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "history-028",
-    "categorySlug": "history",
-    "text": "الأهرامات موجودة في الإسكندرية.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "history-029",
-    "categorySlug": "history",
-    "text": "الحرب العالمية الثانية انتهت عام ١٩٤٥.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "history-030",
-    "categorySlug": "history",
-    "text": "صلاح الدين استعاد القدس.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "history-031",
-    "categorySlug": "history",
-    "text": "الإسكندر الأكبر كان مقدونيًا.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "history-032",
-    "categorySlug": "history",
-    "text": "سقط جدار برلين عام ١٩٨٩.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "history-033",
-    "categorySlug": "history",
-    "text": "أول خليفة للمسلمين أبو بكر الصديق.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "history-034",
-    "categorySlug": "history",
-    "text": "ثورة ٢٣ يوليو قامت عام ١٩٥٢.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "history-035",
-    "categorySlug": "history",
-    "text": "القاهرة بناها الفاطميون.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "history-036",
-    "categorySlug": "history",
-    "text": "معركة حطين وقعت في مصر.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "history-037",
-    "categorySlug": "history",
-    "text": "توت عنخ آمون كان فرعونًا مصريًا.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "history-038",
-    "categorySlug": "history",
     "text": "في أي عام سقطت الإمبراطورية الرومانية (الغربية)؟",
     "answer": "٤٧٦",
     "acceptedAnswers": [
@@ -1968,7 +1772,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "history-039",
+    "id": "history-028",
     "categorySlug": "history",
     "text": "من بنى سور الصين العظيم (معظم أجزائه)؟",
     "answer": "أسرة مينغ",
@@ -1976,10 +1780,10 @@
       "مينغ"
     ],
     "type": "open",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "history-040",
+    "id": "history-029",
     "categorySlug": "history",
     "text": "من أول من وصل إلى القطب الجنوبي؟",
     "answer": "روالد أموندسن",
@@ -1987,10 +1791,10 @@
       "أمُوندسن"
     ],
     "type": "open",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "history-041",
+    "id": "history-030",
     "categorySlug": "history",
     "text": "من اخترع المطبعة (الحديثة)؟",
     "answer": "يوهانس غوتنبرغ",
@@ -2001,7 +1805,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "history-042",
+    "id": "history-031",
     "categorySlug": "history",
     "text": "في أي عام فُتحت مكة؟",
     "answer": "٦٣٠",
@@ -2009,19 +1813,19 @@
       "630"
     ],
     "type": "open",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "history-043",
+    "id": "history-032",
     "categorySlug": "history",
     "text": "من أسس الإمبراطورية المغولية؟",
     "answer": "جنكيز خان",
     "acceptedAnswers": [],
     "type": "open",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "history-044",
+    "id": "history-033",
     "categorySlug": "history",
     "text": "من أطلق أول قمر صناعي (سبوتنيك)؟",
     "answer": "الاتحاد السوفيتي",
@@ -2032,7 +1836,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "history-045",
+    "id": "history-034",
     "categorySlug": "history",
     "text": "في أي عام انتهت حرب فيتنام؟",
     "answer": "١٩٧٥",
@@ -2040,10 +1844,10 @@
       "1975"
     ],
     "type": "open",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "history-046",
+    "id": "history-035",
     "categorySlug": "history",
     "text": "من مؤسس الإمبراطورية العثمانية؟",
     "answer": "عثمان بن أرطغرل",
@@ -2051,10 +1855,10 @@
       "عثمان"
     ],
     "type": "open",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "history-047",
+    "id": "history-036",
     "categorySlug": "history",
     "text": "من أول إنسان في الفضاء؟",
     "answer": "يوري غاغارين",
@@ -2065,39 +1869,39 @@
     "difficulty": "hard"
   },
   {
-    "id": "history-048",
+    "id": "history-037",
     "categorySlug": "history",
     "text": "من كتب «الأمير»؟",
     "answer": "ماكيافيلي",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
-      "ماكيافيلي",
-      "هوبز",
       "لوك",
-      "روسو"
+      "روسو",
+      "هوبز",
+      "ماكيافيلي"
     ],
-    "correctIndex": 0
+    "correctIndex": 3
   },
   {
-    "id": "history-049",
+    "id": "history-038",
     "categorySlug": "history",
     "text": "من كتب «الجمهورية»؟",
     "answer": "أفلاطون",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
-      "أرسطو",
-      "سقراط",
+      "أفلاطون",
       "ديموستين",
-      "أفلاطون"
+      "سقراط",
+      "أرسطو"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
-    "id": "history-050",
+    "id": "history-039",
     "categorySlug": "history",
     "text": "أي إمبراطورية بنت تاج محل؟",
     "answer": "المغول",
@@ -2105,91 +1909,31 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "المغول",
-      "الصفويون",
+      "العثمانيون",
       "المماليك",
-      "العثمانيون"
+      "المغول",
+      "الصفويون"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
-    "id": "history-051",
+    "id": "history-040",
     "categorySlug": "history",
     "text": "من أسس المسيحية؟",
     "answer": "المسيح",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
-      "بطرس",
       "المسيح",
-      "يوحنا",
-      "بولس"
+      "بولس",
+      "بطرس",
+      "يوحنا"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
-    "id": "history-052",
-    "categorySlug": "history",
-    "text": "الإسكندر الأكبر توفي في بابل.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "history-053",
-    "categorySlug": "history",
-    "text": "روما بُنيت في يوم واحد.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "history-054",
-    "categorySlug": "history",
-    "text": "المملكة المتحدة هي ملكية دستورية.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "history-055",
-    "categorySlug": "history",
-    "text": "الثورة الفرنسية بدأت عام ١٧٨٩.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "history-056",
-    "categorySlug": "history",
-    "text": "الحرب الباردة كانت بين أمريكا والاتحاد السوفيتي.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "history-057",
+    "id": "history-041",
     "categorySlug": "history",
     "text": "كم عدد الخلفاء الراشدين؟",
     "answer": "4",
@@ -2200,39 +1944,39 @@
     "difficulty": "hard"
   },
   {
-    "id": "history-058",
+    "id": "history-042",
     "categorySlug": "history",
     "text": "في أي عام سقط جدار برلين؟",
     "answer": "١٩٨٩",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
-      "١٩٨٩",
-      "١٩٩٠",
       "١٩٨٥",
+      "١٩٩٠",
+      "١٩٨٩",
       "١٩٩١"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
-    "id": "history-059",
+    "id": "history-043",
     "categorySlug": "history",
     "text": "أي حضارة بنت ماتشو بيتشو؟",
     "answer": "الإنكا",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
-      "المايا",
       "الأولمك",
       "الإنكا",
+      "المايا",
       "الأزتك"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
   },
   {
-    "id": "history-060",
+    "id": "history-044",
     "categorySlug": "history",
     "text": "من أول خليفة للمسلمين؟",
     "answer": "أبو بكر",
@@ -2241,36 +1985,36 @@
     "difficulty": "hard",
     "options": [
       "أبو بكر",
-      "عثمان",
       "عمر",
+      "عثمان",
       "علي"
     ],
     "correctIndex": 0
   },
   {
-    "id": "history-061",
+    "id": "history-045",
     "categorySlug": "history",
     "text": "أي ملك مصري بنى أبو سمبل؟",
     "answer": "رمسيس الثاني",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
       "خوفو",
-      "أحمس",
       "توت عنخ آمون",
+      "أحمس",
       "رمسيس الثاني"
     ],
     "correctIndex": 3
   },
   {
-    "id": "history-062",
+    "id": "history-046",
     "categorySlug": "history",
     "text": "من القائد Muslim الذي فتح مصر؟",
     "answer": "عمرو بن العاص",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
       "سعد بن أبي وقاص",
       "أبو عبيدة",
@@ -2278,6 +2022,22 @@
       "خالد بن الوليد"
     ],
     "correctIndex": 2
+  },
+  {
+    "id": "history-047",
+    "categorySlug": "history",
+    "text": "في أي عام انتهت الحرب العالمية الأولى؟",
+    "answer": "١٩١٨",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "١٩٤٥",
+      "١٩١٨",
+      "١٩١٤",
+      "١٩٣٩"
+    ],
+    "correctIndex": 1
   },
   {
     "id": "geography-001",
@@ -2902,78 +2662,18 @@
   {
     "id": "geography-058",
     "categorySlug": "geography",
-    "text": "أطول نهر في العالم هو النيل.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "geography-059",
-    "categorySlug": "geography",
-    "text": "أكبر دولة في إفريقيا هي الجزائر.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "geography-060",
-    "categorySlug": "geography",
-    "text": "أكبر دولة في آسيا هي الصين.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "geography-061",
-    "categorySlug": "geography",
-    "text": "أكبر دولة في أوروبا هي روسيا.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "geography-062",
-    "categorySlug": "geography",
-    "text": "أكبر دولة في أمريكا الجنوبية هي البرازيل.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "geography-063",
-    "categorySlug": "geography",
     "text": "ما اسم أكبر صحراء حارة؟",
     "answer": "الصحراء الكبرى",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
+      "الصحراء الكبرى",
       "الربع الخالي",
       "صحراء غوبي",
-      "كالاهاري",
-      "الصحراء الكبرى"
+      "كالاهاري"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "cinema-001",
@@ -3639,76 +3339,16 @@
   {
     "id": "cinema-067",
     "categorySlug": "cinema",
-    "text": "«Parasite» كوري جنوبي.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "cinema-068",
-    "categorySlug": "cinema",
-    "text": "«Titanic» فاز بـ 11 أوسكار.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "cinema-069",
-    "categorySlug": "cinema",
-    "text": "«The Godfather» إيطالي.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "cinema-070",
-    "categorySlug": "cinema",
-    "text": "«Avatar» هو أعلى الأفلام إيرادًا.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "cinema-071",
-    "categorySlug": "cinema",
-    "text": "«Joker» (2019) دراما.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "cinema-072",
-    "categorySlug": "cinema",
     "text": "كم أوسكار فاز بها «Titanic»؟",
     "answer": "11",
     "acceptedAnswers": [
       "١١"
     ],
     "type": "number_guess",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "cinema-073",
+    "id": "cinema-068",
     "categorySlug": "cinema",
     "text": "كم أوسكار فاز بها «Ben-Hur»؟",
     "answer": "11",
@@ -3716,10 +3356,10 @@
       "١١"
     ],
     "type": "number_guess",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "cinema-074",
+    "id": "cinema-069",
     "categorySlug": "cinema",
     "text": "في أي عام صدر «Star Wars» (الأصلي)؟",
     "answer": "1977",
@@ -3730,7 +3370,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "cinema-075",
+    "id": "cinema-070",
     "categorySlug": "cinema",
     "text": "في أي عام صدر «The Godfather»؟",
     "answer": "1972",
@@ -3738,10 +3378,10 @@
       "١٩٧٢"
     ],
     "type": "number_guess",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "cinema-076",
+    "id": "cinema-071",
     "categorySlug": "cinema",
     "text": "في أي عام صدر «Titanic»؟",
     "answer": "1997",
@@ -3749,10 +3389,10 @@
       "١٩٩٧"
     ],
     "type": "number_guess",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "cinema-077",
+    "id": "cinema-072",
     "categorySlug": "cinema",
     "text": "أي فيلم فاز بالأوسكار 2020؟",
     "answer": "Parasite",
@@ -3760,47 +3400,47 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "1917",
+      "Joker",
       "Once Upon a Time",
-      "Parasite",
-      "Joker"
+      "1917",
+      "Parasite"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
-    "id": "cinema-078",
+    "id": "cinema-073",
     "categorySlug": "cinema",
     "text": "من مخرج «Inception»؟",
     "answer": "كريستوفر نولان",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
+      "جيمس كاميرون",
       "كوينتن تارانتينو",
       "كريستوفر نولان",
-      "ستيفن سبيلبرغ",
-      "جيمس كاميرون"
+      "ستيفن سبيلبرغ"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
   },
   {
-    "id": "cinema-079",
+    "id": "cinema-074",
     "categorySlug": "cinema",
     "text": "أي استوديو أنتج «Frozen»؟",
     "answer": "Disney",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
+      "Universal",
       "Disney",
       "Pixar",
-      "Warner",
-      "Universal"
+      "Warner"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
-    "id": "cinema-080",
+    "id": "cinema-075",
     "categorySlug": "cinema",
     "text": "من جسّد «Iron Man»؟",
     "answer": "روبرت داوني جونيور",
@@ -3808,44 +3448,44 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
+      "روبرت داوني جونيور",
       "كريس إيفانز",
       "كريس هيمسورث",
-      "مارك رافالو",
-      "روبرت داوني جونيور"
+      "مارك رافالو"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
-    "id": "cinema-081",
+    "id": "cinema-076",
     "categorySlug": "cinema",
     "text": "أي فيلم كوري جنوبي فاز بالأوسكار؟",
     "answer": "Parasite",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
-      "Parasite",
+      "Oldboy",
       "Train to Busan",
       "The Host",
-      "Oldboy"
+      "Parasite"
     ],
-    "correctIndex": 0
+    "correctIndex": 3
   },
   {
-    "id": "cinema-082",
+    "id": "cinema-077",
     "categorySlug": "cinema",
     "text": "من جسّد «Spider-Man» في 2002؟",
     "answer": "توبي ماجواير",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
-      "أندرو جارفيلد",
-      "توبي ماجواير",
+      "توم هولاند",
       "روبرت باتينسون",
-      "توم هولاند"
+      "توبي ماجواير",
+      "أندرو جارفيلد"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
   },
   {
     "id": "music-001",
@@ -4685,113 +4325,53 @@
   {
     "id": "music-090",
     "categorySlug": "music",
-    "text": "موزارت نمساوي.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "music-091",
-    "categorySlug": "music",
-    "text": "باخ ألماني.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "music-092",
-    "categorySlug": "music",
-    "text": "بيتهوفن إيطالي.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "music-093",
-    "categorySlug": "music",
-    "text": "شوبان بولندي.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "music-094",
-    "categorySlug": "music",
-    "text": "فيفالدي إيطالي.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "music-095",
-    "categorySlug": "music",
     "text": "من غنى «Billie Jean»؟",
     "answer": "مايكل جاكسون",
     "acceptedAnswers": [],
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "مادونا",
-      "ويتني هيوستن",
+      "مايكل جاكسون",
       "برينس",
-      "مايكل جاكسون"
+      "مادونا",
+      "ويتني هيوستن"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
-    "id": "music-096",
+    "id": "music-091",
     "categorySlug": "music",
     "text": "من غنى «Bohemian Rhapsody»؟",
     "answer": "كوين",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
-      "كوين",
-      "The Who",
+      "البيتلز",
       "led Zeppelin",
-      "البيتلز"
+      "The Who",
+      "كوين"
     ],
-    "correctIndex": 0
+    "correctIndex": 3
   },
   {
-    "id": "music-097",
+    "id": "music-092",
     "categorySlug": "music",
     "text": "من غنى «Shape of You»؟",
     "answer": "إد شيران",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
-      "برونو مارس",
       "إد شيران",
+      "جاستن بيبر",
       "The Weeknd",
-      "جاستن بيبر"
+      "برونو مارس"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
-    "id": "music-098",
+    "id": "music-093",
     "categorySlug": "music",
     "text": "أي فرقة بريطانية لقبت بـ«Fab Four»؟",
     "answer": "البيتلز",
@@ -4799,12 +4379,60 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "The Who",
       "الرولينغ ستونز",
       "البيتلز",
-      "كوين"
+      "كوين",
+      "The Who"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "music-094",
+    "categorySlug": "music",
+    "text": "من غنى «Yesterday»؟",
+    "answer": "البيتلز",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "كوين",
+      "الرولينغ ستونز",
+      "البيتلز",
+      "led Zeppelin"
     ],
     "correctIndex": 2
+  },
+  {
+    "id": "music-095",
+    "categorySlug": "music",
+    "text": "من غنى «Let It Be»؟",
+    "answer": "البيتلز",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "كوين",
+      "The Who",
+      "الرولينغ ستونز",
+      "البيتلز"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "music-096",
+    "categorySlug": "music",
+    "text": "من غنى «Hey Jude»؟",
+    "answer": "البيتلز",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "البيتلز",
+      "The Who",
+      "كوين",
+      "الرولينغ ستونز"
+    ],
+    "correctIndex": 0
   },
   {
     "id": "science-001",
@@ -5049,126 +4677,6 @@
   {
     "id": "science-020",
     "categorySlug": "science",
-    "text": "الماء يتجمد عند ١٠٠ درجة مئوية.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "science-021",
-    "categorySlug": "science",
-    "text": "الأرض تدور حول الشمس.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "science-022",
-    "categorySlug": "science",
-    "text": "الأكسجين ضروري للتنفس.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "science-023",
-    "categorySlug": "science",
-    "text": "القمر ينتج ضوءه بنفسه.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "science-024",
-    "categorySlug": "science",
-    "text": "الصوت ينتقل في الفراغ.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "science-025",
-    "categorySlug": "science",
-    "text": "الكبد أكبر عضو داخلي في الجسم.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "science-026",
-    "categorySlug": "science",
-    "text": "الأرض كوكب.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "science-027",
-    "categorySlug": "science",
-    "text": "الحوت من الثدييات.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "science-028",
-    "categorySlug": "science",
-    "text": "النخلة نبات.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "science-029",
-    "categorySlug": "science",
-    "text": "الحمض النووي DNA موجود في الدم فقط.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "science-030",
-    "categorySlug": "science",
     "text": "كم عدد كواكب المجموعة الشمسية؟",
     "answer": "8",
     "acceptedAnswers": [
@@ -5178,7 +4686,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "science-031",
+    "id": "science-021",
     "categorySlug": "science",
     "text": "كم عدد أسنان الطفل اللبنية؟",
     "answer": "20",
@@ -5186,10 +4694,10 @@
       "٢٠"
     ],
     "type": "number_guess",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "science-032",
+    "id": "science-022",
     "categorySlug": "science",
     "text": "كم قلبًا للأخطبوط؟",
     "answer": "3",
@@ -5197,10 +4705,10 @@
       "٣"
     ],
     "type": "number_guess",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "science-033",
+    "id": "science-023",
     "categorySlug": "science",
     "text": "كم رجلًا للعنكبوت؟",
     "answer": "8",
@@ -5211,7 +4719,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "science-034",
+    "id": "science-024",
     "categorySlug": "science",
     "text": "كم تبلغ سرعة الضوء تقريبًا بالكيلومتر في الثانية؟",
     "answer": "300000",
@@ -5219,10 +4727,10 @@
       "٣٠٠٠٠٠"
     ],
     "type": "number_guess",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "science-035",
+    "id": "science-025",
     "categorySlug": "science",
     "text": "كم ضلعًا في القفص الصدري للإنسان؟",
     "answer": "24",
@@ -5230,10 +4738,10 @@
       "٢٤"
     ],
     "type": "number_guess",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "science-036",
+    "id": "science-026",
     "categorySlug": "science",
     "text": "كم فصيلة دم رئيسية؟",
     "answer": "4",
@@ -5244,7 +4752,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "science-037",
+    "id": "science-027",
     "categorySlug": "science",
     "text": "كم غرفة في قلب الإنسان؟",
     "answer": "4",
@@ -5252,19 +4760,19 @@
       "٤"
     ],
     "type": "number_guess",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "science-038",
+    "id": "science-028",
     "categorySlug": "science",
     "text": "ما اسم أصغر وحدة في الكيمياء؟",
     "answer": "الذرة",
     "acceptedAnswers": [],
     "type": "open",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "science-039",
+    "id": "science-029",
     "categorySlug": "science",
     "text": "ما اسم أصغر وحدة في الفيزياء؟",
     "answer": "الجسيم (أو الكوارك)",
@@ -5276,7 +4784,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "science-040",
+    "id": "science-030",
     "categorySlug": "science",
     "text": "ما اسم الغاز (Noble gas) المستخدم في المصابيح؟",
     "answer": "الأرجون",
@@ -5284,10 +4792,10 @@
       "ارجون"
     ],
     "type": "open",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "science-041",
+    "id": "science-031",
     "categorySlug": "science",
     "text": "ما اسم الكوكب (Dwarf planet) (أكبر)؟",
     "answer": "بلوتو",
@@ -5295,10 +4803,10 @@
       "pluto"
     ],
     "type": "open",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "science-042",
+    "id": "science-032",
     "categorySlug": "science",
     "text": "من اكتشف البنسلين؟",
     "answer": "ألكسندر فليمنغ",
@@ -5309,7 +4817,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "science-043",
+    "id": "science-033",
     "categorySlug": "science",
     "text": "من اكتشف بنية DNA؟",
     "answer": "Watson و Crick",
@@ -5318,10 +4826,10 @@
       "Crick"
     ],
     "type": "open",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "science-044",
+    "id": "science-034",
     "categorySlug": "science",
     "text": "ما اسم أسرع حيوان في الماء؟",
     "answer": "السمك الشراعي",
@@ -5329,10 +4837,10 @@
       "الشراعي"
     ],
     "type": "open",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "science-045",
+    "id": "science-035",
     "categorySlug": "science",
     "text": "ما اسم أطول حيوان في العالم؟",
     "answer": "الزرافة",
@@ -5341,16 +4849,16 @@
     "difficulty": "hard"
   },
   {
-    "id": "science-046",
+    "id": "science-036",
     "categorySlug": "science",
     "text": "ما اسم أكبر حيوان في العالم؟",
     "answer": "الحوت الأزرق",
     "acceptedAnswers": [],
     "type": "open",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "science-047",
+    "id": "science-037",
     "categorySlug": "science",
     "text": "ما اسم أسرع طائر؟",
     "answer": "الصقر (الشاهين)",
@@ -5359,10 +4867,10 @@
       "الصقر"
     ],
     "type": "open",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "science-048",
+    "id": "science-038",
     "categorySlug": "science",
     "text": "ما الصيغة الكيميائية للغلوكوز؟",
     "answer": "C6H12O6",
@@ -5371,46 +4879,46 @@
     "difficulty": "hard",
     "options": [
       "C6H12O6",
-      "H2O",
+      "NaCl",
       "CO2",
-      "NaCl"
+      "H2O"
     ],
     "correctIndex": 0
   },
   {
-    "id": "science-049",
+    "id": "science-039",
     "categorySlug": "science",
     "text": "أي عنصر رمزه Au؟",
     "answer": "الذهب",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "الفضة",
+      "النحاس",
+      "الذهب",
+      "الحديد"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "science-040",
+    "categorySlug": "science",
+    "text": "أي عنصر رمزه Ag؟",
+    "answer": "الفضة",
     "acceptedAnswers": [],
     "type": "mcq",
     "difficulty": "medium",
     "options": [
       "الفضة",
       "الحديد",
-      "النحاس",
-      "الذهب"
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": "science-050",
-    "categorySlug": "science",
-    "text": "أي عنصر رمزه Ag؟",
-    "answer": "الفضة",
-    "acceptedAnswers": [],
-    "type": "mcq",
-    "difficulty": "hard",
-    "options": [
-      "الفضة",
-      "الحديد",
-      "النحاس",
-      "الذهب"
+      "الذهب",
+      "النحاس"
     ],
     "correctIndex": 0
   },
   {
-    "id": "science-051",
+    "id": "science-041",
     "categorySlug": "science",
     "text": "أي عنصر رمزه Fe؟",
     "answer": "الحديد",
@@ -5419,46 +4927,46 @@
     "difficulty": "hard",
     "options": [
       "الذهب",
-      "الحديد",
       "النحاس",
-      "الفضة"
+      "الفضة",
+      "الحديد"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
-    "id": "science-052",
+    "id": "science-042",
     "categorySlug": "science",
     "text": "أي عنصر رمزه O؟",
     "answer": "الأكسجين",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
       "الهيدروجين",
-      "النيتروجين",
+      "الكربون",
       "الأكسجين",
-      "الكربون"
+      "النيتروجين"
     ],
     "correctIndex": 2
   },
   {
-    "id": "science-053",
+    "id": "science-043",
     "categorySlug": "science",
     "text": "أي كوكب هو «توأم الأرض»؟",
     "answer": "الزهرة",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
-      "عطارد",
       "المشتري",
+      "الزهرة",
       "المريخ",
-      "الزهرة"
+      "عطارد"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
-    "id": "science-054",
+    "id": "science-044",
     "categorySlug": "science",
     "text": "أي كوكب له يوم أطول من سنته؟",
     "answer": "الزهرة",
@@ -5467,46 +4975,46 @@
     "difficulty": "hard",
     "options": [
       "الزهرة",
-      "المشتري",
+      "المريخ",
       "عطارد",
-      "المريخ"
+      "المشتري"
     ],
     "correctIndex": 0
   },
   {
-    "id": "science-055",
+    "id": "science-045",
     "categorySlug": "science",
     "text": "أي جسم سماوي أقرب إلى الأرض؟",
     "answer": "القمر",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
       "الشمس",
+      "المريخ",
       "الزهرة",
-      "القمر",
-      "المريخ"
+      "القمر"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
-    "id": "science-056",
+    "id": "science-046",
     "categorySlug": "science",
     "text": "أي مادة هي أصلب مادة طبيعية؟",
     "answer": "الماس",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
-      "الماس",
       "الزمرد",
-      "الياقوت",
-      "الصلب"
+      "الصلب",
+      "الماس",
+      "الياقوت"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
-    "id": "science-057",
+    "id": "science-047",
     "categorySlug": "science",
     "text": "أي مادة هي أخف مادة؟",
     "answer": "الهيدروجين",
@@ -5514,63 +5022,15 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "الأكسجين",
       "النيتروجين",
+      "الهيدروجين",
       "الهيليوم",
-      "الهيدروجين"
+      "الأكسجين"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
-    "id": "science-058",
-    "categorySlug": "science",
-    "text": "الضوء أسرع من الصوت.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "science-059",
-    "categorySlug": "science",
-    "text": "الصوت أسرع في الماء من الهواء.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "science-060",
-    "categorySlug": "science",
-    "text": "القمر يدور حول الأرض.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "science-061",
-    "categorySlug": "science",
-    "text": "المريخ هو الكوكب الأحمر.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "science-062",
+    "id": "science-048",
     "categorySlug": "science",
     "text": "كم عدد كواكب المجموعة الشمسية (بدون الكواكب القزمة)؟",
     "answer": "8",
@@ -5579,6 +5039,54 @@
     ],
     "type": "number_guess",
     "difficulty": "hard"
+  },
+  {
+    "id": "science-049",
+    "categorySlug": "science",
+    "text": "ما الصيغة الكيميائية للماء؟",
+    "answer": "H2O",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "CO2",
+      "NaCl",
+      "O2",
+      "H2O"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "science-050",
+    "categorySlug": "science",
+    "text": "أي عنصر رمزه Na؟",
+    "answer": "الصوديوم",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "الصوديوم",
+      "النيكل",
+      "النيون",
+      "النيتروجين"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "science-051",
+    "categorySlug": "science",
+    "text": "أي عنصر رمزه K؟",
+    "answer": "البوتاسيوم",
+    "acceptedAnswers": [],
+    "type": "mcq",
+    "difficulty": "hard",
+    "options": [
+      "الكالسيوم",
+      "البوتاسيوم",
+      "الكوبالت",
+      "الكربون"
+    ],
+    "correctIndex": 1
   },
   {
     "id": "culture-001",
@@ -6003,74 +5511,14 @@
   {
     "id": "culture-047",
     "categorySlug": "culture",
-    "text": "«ألف ليلة وليلة» عربية الأصل.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "culture-048",
-    "categorySlug": "culture",
-    "text": "«كليلة ودمنة» فارسية الأصل.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "culture-049",
-    "categorySlug": "culture",
-    "text": "«المقدمة» لابن خلدون.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "culture-050",
-    "categorySlug": "culture",
-    "text": "«القانون في الطب» لابن سينا.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "culture-051",
-    "categorySlug": "culture",
-    "text": "«البيان والتبيين» للجاحظ.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "culture-052",
-    "categorySlug": "culture",
     "text": "الكلمة دي مقلوبة: «ظحاجلا» — إيه هي؟",
     "answer": "الجاحظ",
     "acceptedAnswers": [],
     "type": "reversed",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "culture-053",
+    "id": "culture-048",
     "categorySlug": "culture",
     "text": "الكلمة دي مقلوبة: «نودلخ نبا» — إيه هي؟",
     "answer": "ابن خلدون",
@@ -6079,25 +5527,25 @@
     "difficulty": "hard"
   },
   {
-    "id": "culture-054",
+    "id": "culture-049",
     "categorySlug": "culture",
     "text": "الكلمة دي مقلوبة: «انيس نبا» — إيه هي؟",
     "answer": "ابن سينا",
     "acceptedAnswers": [],
     "type": "reversed",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "culture-055",
+    "id": "culture-050",
     "categorySlug": "culture",
     "text": "الكلمة دي مقلوبة: «دشر نبا» — إيه هي؟",
     "answer": "ابن رشد",
     "acceptedAnswers": [],
     "type": "reversed",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "culture-056",
+    "id": "culture-051",
     "categorySlug": "culture",
     "text": "الكلمة دي مقلوبة: «يبارافلا» — إيه هي؟",
     "answer": "الفارابي",
@@ -6106,39 +5554,39 @@
     "difficulty": "hard"
   },
   {
-    "id": "culture-057",
+    "id": "culture-052",
     "categorySlug": "culture",
     "text": "من رسم «الموناليزا»؟",
     "answer": "ليوناردو دافنشي",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
       "رافائيل",
-      "دوناتيلو",
       "ميكيلانجيلو",
-      "ليوناردو دافنشي"
+      "ليوناردو دافنشي",
+      "دوناتيلو"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
-    "id": "culture-058",
+    "id": "culture-053",
     "categorySlug": "culture",
     "text": "من مؤلف «الجمهورية»؟",
     "answer": "أفلاطون",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
-      "أفلاطون",
-      "ديموستين",
       "سقراط",
-      "أرسطو"
+      "ديموستين",
+      "أرسطو",
+      "أفلاطون"
     ],
-    "correctIndex": 0
+    "correctIndex": 3
   },
   {
-    "id": "culture-059",
+    "id": "culture-054",
     "categorySlug": "culture",
     "text": "من كتب «الأمير»؟",
     "answer": "ماكيافيلي",
@@ -6146,44 +5594,44 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "هوبز",
-      "روسو",
       "ماكيافيلي",
-      "لوك"
+      "روسو",
+      "لوك",
+      "هوبز"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
-    "id": "culture-060",
+    "id": "culture-055",
     "categorySlug": "culture",
     "text": "أي إمبراطورية بنت تاج محل؟",
     "answer": "المغول",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "options": [
-      "المغول",
-      "الصفويون",
       "العثمانيون",
-      "المماليك"
+      "المماليك",
+      "المغول",
+      "الصفويون"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
-    "id": "culture-061",
+    "id": "culture-056",
     "categorySlug": "culture",
     "text": "من رسم «الصرخة»؟",
     "answer": "إدفارد مونك",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
-      "بيكاسو",
-      "دالي",
+      "إدفارد مونك",
       "فان غوخ",
-      "إدفارد مونك"
+      "بيكاسو",
+      "دالي"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "egyptian-food-001",
@@ -6513,114 +5961,6 @@
   {
     "id": "egyptian-food-029",
     "categorySlug": "egyptian-food",
-    "text": "الكشري فيه عدس ومكرونة وأرز.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "egyptian-food-030",
-    "categorySlug": "egyptian-food",
-    "text": "الملوخية بتتعمل من ورق الملوخية.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "egyptian-food-031",
-    "categorySlug": "egyptian-food",
-    "text": "الفسيخ نوع من الحلوى.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "egyptian-food-032",
-    "categorySlug": "egyptian-food",
-    "text": "الكحك بيتعمل في العيد.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "egyptian-food-033",
-    "categorySlug": "egyptian-food",
-    "text": "الطعمية بتتعمل من اللحمة.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "egyptian-food-034",
-    "categorySlug": "egyptian-food",
-    "text": "البسبوسة فيها قطر.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "egyptian-food-035",
-    "categorySlug": "egyptian-food",
-    "text": "الرز بلبن نوع من الحلويات.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "egyptian-food-036",
-    "categorySlug": "egyptian-food",
-    "text": "الفول المدمس بيتقدم في الفطار.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "egyptian-food-037",
-    "categorySlug": "egyptian-food",
-    "text": "أم علي بتتعمل باللبن.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "egyptian-food-038",
-    "categorySlug": "egyptian-food",
     "text": "ما اسم أكلة مصرية من الأرز والطماطم والبصل؟",
     "answer": "المحشي",
     "acceptedAnswers": [],
@@ -6628,7 +5968,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "egyptian-food-039",
+    "id": "egyptian-food-030",
     "categorySlug": "egyptian-food",
     "text": "ما اسم حلوى مصرية من السميد واللبن؟",
     "answer": "المهلبية",
@@ -6637,7 +5977,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "egyptian-food-040",
+    "id": "egyptian-food-031",
     "categorySlug": "egyptian-food",
     "text": "ما اسم شراب مصري من التمر هندي؟",
     "answer": "تمر هندي",
@@ -6646,7 +5986,7 @@
     "difficulty": "medium"
   },
   {
-    "id": "egyptian-food-041",
+    "id": "egyptian-food-032",
     "categorySlug": "egyptian-food",
     "text": "ما اسم شراب مصري من المشمش؟",
     "answer": "قمر الدين",
@@ -6655,7 +5995,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "egyptian-food-042",
+    "id": "egyptian-food-033",
     "categorySlug": "egyptian-food",
     "text": "ما اسم أكلة مصرية من البامية؟",
     "answer": "البامية",
@@ -6664,7 +6004,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "egyptian-food-043",
+    "id": "egyptian-food-034",
     "categorySlug": "egyptian-food",
     "text": "ما اسم أكلة مصرية من اللحم والمكرونة؟",
     "answer": "مكرونة بالبشاميل",
@@ -6673,7 +6013,7 @@
     "difficulty": "medium"
   },
   {
-    "id": "egyptian-food-044",
+    "id": "egyptian-food-035",
     "categorySlug": "egyptian-food",
     "text": "ما اسم شراب مصري من عرق السوس؟",
     "answer": "عرق السوس",
@@ -6682,7 +6022,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "egyptian-food-045",
+    "id": "egyptian-food-036",
     "categorySlug": "egyptian-food",
     "text": "ما اسم أكلة مصرية من العدس والبصل؟",
     "answer": "شوربة العدس",
@@ -6693,7 +6033,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "egyptian-food-046",
+    "id": "egyptian-food-037",
     "categorySlug": "egyptian-food",
     "text": "ما اسم حلوى مصرية من التمر والجوز؟",
     "answer": "البقلاوة",
@@ -6702,7 +6042,7 @@
     "difficulty": "medium"
   },
   {
-    "id": "egyptian-food-047",
+    "id": "egyptian-food-038",
     "categorySlug": "egyptian-food",
     "text": "ما اسم أكلة مصرية من الفول المدشوش؟",
     "answer": "الطعمية",
@@ -6711,7 +6051,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "egyptian-food-048",
+    "id": "egyptian-food-039",
     "categorySlug": "egyptian-food",
     "text": "أي مكون ليس في الكشري؟",
     "answer": "الجبنة",
@@ -6721,13 +6061,13 @@
     "options": [
       "العدس",
       "المكرونة",
-      "الجبنة",
-      "الأرز"
+      "الأرز",
+      "الجبنة"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
-    "id": "egyptian-food-049",
+    "id": "egyptian-food-040",
     "categorySlug": "egyptian-food",
     "text": "أي أكلة هي حلوى؟",
     "answer": "الكنافة",
@@ -6735,15 +6075,15 @@
     "type": "mcq",
     "difficulty": "medium",
     "options": [
-      "الملوخية",
       "الكنافة",
-      "المحشي",
-      "البامية"
+      "الملوخية",
+      "البامية",
+      "المحشي"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
-    "id": "egyptian-food-050",
+    "id": "egyptian-food-041",
     "categorySlug": "egyptian-food",
     "text": "أي أكلة هي شوربة؟",
     "answer": "شوربة لسان العصفور",
@@ -6751,15 +6091,15 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "شوربة لسان العصفور",
       "الكشري",
-      "الحواوشي",
-      "المحشي"
+      "المحشي",
+      "شوربة لسان العصفور",
+      "الحواوشي"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
-    "id": "egyptian-food-051",
+    "id": "egyptian-food-042",
     "categorySlug": "egyptian-food",
     "text": "أي أكلة هي ساندويتش؟",
     "answer": "الحواوشي",
@@ -6767,93 +6107,33 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "الكشري",
+      "الحواوشي",
       "الملوخية",
-      "البامية",
-      "الحواوشي"
+      "الكشري",
+      "البامية"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
-    "id": "egyptian-food-052",
-    "categorySlug": "egyptian-food",
-    "text": "الكشري طبق مصري.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "egyptian-food-053",
-    "categorySlug": "egyptian-food",
-    "text": "الملوخية طبق مصري.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "egyptian-food-054",
-    "categorySlug": "egyptian-food",
-    "text": "الطعمية تُصنع من الفول.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "egyptian-food-055",
-    "categorySlug": "egyptian-food",
-    "text": "الكحك يُصنع في العيد.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "egyptian-food-056",
-    "categorySlug": "egyptian-food",
-    "text": "الفسيخ يُؤكل في شم النسيم.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "egyptian-food-057",
+    "id": "egyptian-food-043",
     "categorySlug": "egyptian-food",
     "text": "طبق مصري من طبقات الأرز والمكرونة والعدس — إيه هو؟",
     "answer": "الكشري",
     "acceptedAnswers": [],
     "type": "description",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "egyptian-food-058",
+    "id": "egyptian-food-044",
     "categorySlug": "egyptian-food",
     "text": "طبق مصري من ورق العنب — إيه هو؟",
     "answer": "المحشي",
     "acceptedAnswers": [],
     "type": "description",
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "id": "egyptian-food-059",
+    "id": "egyptian-food-045",
     "categorySlug": "egyptian-food",
     "text": "حلوى مصرية من السميد والقطر — إيه هي؟",
     "answer": "البسبوسة",
@@ -6862,32 +6142,32 @@
     "difficulty": "hard"
   },
   {
-    "id": "egyptian-food-060",
+    "id": "egyptian-food-046",
     "categorySlug": "egyptian-food",
     "text": "أكلة مصرية من المكرونة واللحمة والبشاميل — إيه هي؟",
     "answer": "مكرونة بالبشاميل",
     "acceptedAnswers": [],
     "type": "description",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "id": "egyptian-food-061",
+    "id": "egyptian-food-047",
     "categorySlug": "egyptian-food",
     "text": "الطعمية تُصنع من إيه؟",
     "answer": "الفول المدشوش",
     "acceptedAnswers": [],
     "type": "mcq",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "options": [
       "اللحمة",
       "البطاطس",
-      "الفول المدشوش",
-      "الدقيق"
+      "الدقيق",
+      "الفول المدشوش"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
-    "id": "egyptian-food-062",
+    "id": "egyptian-food-048",
     "categorySlug": "egyptian-food",
     "text": "أي حلوى مصرية بيتعمل في العيد؟",
     "answer": "الكحك",
@@ -6895,12 +6175,12 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "الكحك",
       "أم علي",
-      "الكنافة",
-      "البسبوسة"
+      "البسبوسة",
+      "الكحك",
+      "الكنافة"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
     "id": "ramadan-series-001",
@@ -7369,66 +6649,6 @@
     "difficulty": "hard"
   },
   {
-    "id": "ramadan-series-045",
-    "categorySlug": "ramadan-series",
-    "text": "«الاختيار» مسلسل مصري.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "ramadan-series-046",
-    "categorySlug": "ramadan-series",
-    "text": "«باب الحارة» مسلسل سوري.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "ramadan-series-047",
-    "categorySlug": "ramadan-series",
-    "text": "«النهاية» خيال علمي.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "ramadan-series-048",
-    "categorySlug": "ramadan-series",
-    "text": "«ذات» مسلسل مصري.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "ramadan-series-049",
-    "categorySlug": "ramadan-series",
-    "text": "«الحاج متولي» بطولة نور الشريف.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
     "id": "national-songs-001",
     "categorySlug": "national-songs",
     "text": "مين ملحن النشيد الوطني المصري؟",
@@ -7734,150 +6954,6 @@
   {
     "id": "national-songs-026",
     "categorySlug": "national-songs",
-    "text": "النشيد الوطني المصري اسمه «بلادي بلادي».",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "national-songs-027",
-    "categorySlug": "national-songs",
-    "text": "«لا مارسييز» هو نشيد إنجلترا.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "national-songs-028",
-    "categorySlug": "national-songs",
-    "text": "سيد درويش لحن النشيد الوطني المصري.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "national-songs-029",
-    "categorySlug": "national-songs",
-    "text": "نشيد السعودية اسمه «عيشي بلادي».",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "national-songs-030",
-    "categorySlug": "national-songs",
-    "text": "«حلوة يا بلدي» أغنية وطنية.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "national-songs-031",
-    "categorySlug": "national-songs",
-    "text": "أم كلثوم غنت «مصر تتحدث عن نفسها».",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "national-songs-032",
-    "categorySlug": "national-songs",
-    "text": "النشيد الوطني يُعزف في المناسبات الرسمية.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "national-songs-033",
-    "categorySlug": "national-songs",
-    "text": "«God Save the King» نشيد أمريكي.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "national-songs-034",
-    "categorySlug": "national-songs",
-    "text": "«عيشي بلادي» هو نشيد الإمارات.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "national-songs-035",
-    "categorySlug": "national-songs",
-    "text": "«قسما» هو النشيد الوطني الجزائري.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "national-songs-036",
-    "categorySlug": "national-songs",
-    "text": "«حماة الحمى» هو النشيد الوطني التونسي.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "national-songs-037",
-    "categorySlug": "national-songs",
-    "text": "النشيد الوطني المصري من كلمات حافظ إبراهيم.",
-    "answer": "غلط",
-    "acceptedAnswers": [
-      "غلط",
-      "خطأ"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "national-songs-038",
-    "categorySlug": "national-songs",
     "text": "ما النشيد الوطني (الإمارات)؟",
     "answer": "عيشي بلادي",
     "acceptedAnswers": [],
@@ -7885,7 +6961,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "national-songs-039",
+    "id": "national-songs-027",
     "categorySlug": "national-songs",
     "text": "ما النشيد الوطني (قطر)؟",
     "answer": "السلام الأميري",
@@ -7896,7 +6972,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "national-songs-040",
+    "id": "national-songs-028",
     "categorySlug": "national-songs",
     "text": "ما النشيد الوطني (البحرين)؟",
     "answer": "بحريننا",
@@ -7905,7 +6981,7 @@
     "difficulty": "medium"
   },
   {
-    "id": "national-songs-041",
+    "id": "national-songs-029",
     "categorySlug": "national-songs",
     "text": "ما النشيد الوطني (عمان)؟",
     "answer": "يا عمان",
@@ -7914,7 +6990,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "national-songs-042",
+    "id": "national-songs-030",
     "categorySlug": "national-songs",
     "text": "ما النشيد الوطني (الكويت)؟",
     "answer": "النشيد الوطني (الكويت)",
@@ -7925,7 +7001,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "national-songs-043",
+    "id": "national-songs-031",
     "categorySlug": "national-songs",
     "text": "ما النشيد الوطني (العراق)؟",
     "answer": "موفق",
@@ -7934,7 +7010,7 @@
     "difficulty": "medium"
   },
   {
-    "id": "national-songs-044",
+    "id": "national-songs-032",
     "categorySlug": "national-songs",
     "text": "ما النشيد الوطني (الأردن)؟",
     "answer": "السلام الملكي الأردني",
@@ -7943,7 +7019,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "national-songs-045",
+    "id": "national-songs-033",
     "categorySlug": "national-songs",
     "text": "ما النشيد الوطني (لبنان)؟",
     "answer": "كلنا للوطن",
@@ -7952,7 +7028,7 @@
     "difficulty": "hard"
   },
   {
-    "id": "national-songs-046",
+    "id": "national-songs-034",
     "categorySlug": "national-songs",
     "text": "ما النشيد الوطني (سوريا)؟",
     "answer": "حماة الديار",
@@ -7961,7 +7037,7 @@
     "difficulty": "medium"
   },
   {
-    "id": "national-songs-047",
+    "id": "national-songs-035",
     "categorySlug": "national-songs",
     "text": "أي دولة نشيدها «يا عمان»؟",
     "answer": "عمان",
@@ -7970,14 +7046,14 @@
     "difficulty": "hard",
     "options": [
       "عمان",
-      "السعودية",
       "الإمارات",
+      "السعودية",
       "قطر"
     ],
     "correctIndex": 0
   },
   {
-    "id": "national-songs-048",
+    "id": "national-songs-036",
     "categorySlug": "national-songs",
     "text": "أي دولة نشيدها «بحريننا»؟",
     "answer": "البحرين",
@@ -7986,14 +7062,14 @@
     "difficulty": "hard",
     "options": [
       "الكويت",
-      "عمان",
       "قطر",
+      "عمان",
       "البحرين"
     ],
     "correctIndex": 3
   },
   {
-    "id": "national-songs-049",
+    "id": "national-songs-037",
     "categorySlug": "national-songs",
     "text": "أي دولة نشيدها «السلام الملكي»؟",
     "answer": "الأردن",
@@ -8001,15 +7077,15 @@
     "type": "mcq",
     "difficulty": "medium",
     "options": [
+      "الأردن",
       "الإمارات",
       "الكويت",
-      "الأردن",
       "السعودية"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
-    "id": "national-songs-050",
+    "id": "national-songs-038",
     "categorySlug": "national-songs",
     "text": "أي دولة نشيدها «كلنا للوطن»؟",
     "answer": "لبنان",
@@ -8017,15 +7093,15 @@
     "type": "mcq",
     "difficulty": "hard",
     "options": [
-      "سوريا",
       "العراق",
       "لبنان",
+      "سوريا",
       "الأردن"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
   },
   {
-    "id": "national-songs-051",
+    "id": "national-songs-039",
     "categorySlug": "national-songs",
     "text": "أي دولة نشيدها «حماة الديار»؟",
     "answer": "سوريا",
@@ -8034,70 +7110,10 @@
     "difficulty": "hard",
     "options": [
       "سوريا",
-      "الأردن",
       "لبنان",
+      "الأردن",
       "العراق"
     ],
     "correctIndex": 0
-  },
-  {
-    "id": "national-songs-052",
-    "categorySlug": "national-songs",
-    "text": "«عيشي بلادي» نشيد الإمارات.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "national-songs-053",
-    "categorySlug": "national-songs",
-    "text": "«السلام الأميري» نشيد قطر.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "national-songs-054",
-    "categorySlug": "national-songs",
-    "text": "«بحريننا» نشيد البحرين.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
-  },
-  {
-    "id": "national-songs-055",
-    "categorySlug": "national-songs",
-    "text": "«يا عمان» نشيد عمان.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "medium"
-  },
-  {
-    "id": "national-songs-056",
-    "categorySlug": "national-songs",
-    "text": "«السلام الملكي» نشيد الأردن.",
-    "answer": "صح",
-    "acceptedAnswers": [
-      "صح",
-      "صحيح"
-    ],
-    "type": "true_false",
-    "difficulty": "hard"
   }
 ]

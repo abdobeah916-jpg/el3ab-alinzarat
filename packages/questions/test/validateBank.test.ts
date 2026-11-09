@@ -16,7 +16,7 @@ describe("بنك الأسئلة", () => {
   it("كل نوع سؤال له ١٠ أمثلة على الأقل", () => {
     const counts = new Map<string, number>();
     for (const q of questions) counts.set(q.type, (counts.get(q.type) ?? 0) + 1);
-    for (const type of ["open","mcq","true_false","capital","quote","proverb","actor","reversed","reversed_song","description","song","singer_song","movie_line","movie_scene","number_guess","flag","city_image"]) {
+    for (const type of ["open","mcq","capital","quote","proverb","actor","reversed","reversed_song","description","song","singer_song","movie_line","movie_scene","number_guess","flag","city_image"]) {
       expect(counts.get(type) ?? 0).toBeGreaterThanOrEqual(10);
     }
   });
