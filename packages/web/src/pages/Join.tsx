@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { joinRoom } from "../lib/api";
+import { onlineEnabled } from "../lib/api";
 import { saveSession, loadSession } from "../lib/tokenStore";
-import { ArrowIcon, BellIcon } from "../components/icons";
+import { ArrowIcon, BellIcon, UsersIcon } from "../components/icons";
 
 export function Join() {
   const params = useParams();
   const nav = useNavigate();
+  const online = onlineEnabled();
   const session = loadSession();
   const [code, setCode] = useState((params.code ?? session?.code ?? "").toUpperCase());
   const [name, setName] = useState("");
@@ -14,6 +16,10 @@ export function Join() {
   const [busy, setBusy] = useState(false);
 
   async function submit() {
+    if (!online) {
+      setError("الغرف الأونلاين محتاجة سيرفر — استخدم «لعب فردي» دلوقتي.");
+      return;
+    }
     setBusy(true);
     setError("");
     try {
@@ -42,6 +48,19 @@ export function Join() {
             <h1 style={{ fontSize: 28 }}>ادخل الغرفة</h1>
             <p className="muted" style={{ fontSize: 14 }}>هات الكود من الحكم واكتب اسمك.</p>
           </div>
+
+          {!online && (
+            <div className="local__result local__result--bad" role="note">
+              <span className="local__result-mark"><BellIcon /></span>
+              <div>
+                <b>الغرف الأونلاين محتاجة سيرفر</b>
+                <p className="muted" style={{ margin: 0 }}>النسخة دي واجهة بس — استخدم «لعب فردي» على تليفون واحد.</p>
+              </div>
+              <button type="button" className="btn btn--gold" onClick={() => nav("/local")}>
+                <UsersIcon /> لعب فردي
+              </button>
+            </div>
+          )}
 
           <div className="field">
             <label htmlFor="room-code">كود الغرفة</label>

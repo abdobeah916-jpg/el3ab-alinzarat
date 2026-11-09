@@ -1,4 +1,19 @@
 const base = (import.meta as any).env?.VITE_API_BASE ?? "";
+
+/**
+ * Online rooms need the Express/Socket.IO server. The static deployment on
+ * Vercel has no backend, so the UI must say that instead of failing with a
+ * generic network error.
+ */
+export function onlineEnabled(): boolean {
+  if (base) return true;
+  const env = (import.meta as any).env ?? {};
+  if (env.DEV) return true;
+  if (typeof window === "undefined") return false;
+  const host = window.location.hostname;
+  return host === "localhost" || host === "127.0.0.1" || host === "::1";
+}
+
 export async function createRoom() {
   const r = await fetch(`${base}/api/rooms`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({}) });
   if (!r.ok) throw new Error("فشل إنشاء الغرفة");

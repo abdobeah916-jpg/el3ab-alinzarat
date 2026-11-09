@@ -1,17 +1,25 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { createRoom } from "../lib/api";
+import { onlineEnabled } from "../lib/api";
 import { saveSession } from "../lib/tokenStore";
 import { BellIcon, ChipIcon, ArrowIcon, CopyIcon, UsersIcon } from "../components/icons";
 
+const OFFLINE_MESSAGE = "الغرف الأونلاين محتاجة سيرفر — استخدم «لعب فردي» دلوقتي.";
+
 export function Home() {
   const nav = useNavigate();
+  const online = onlineEnabled();
   const [room, setRoom] = useState<{ code: string; recovery: string } | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [copied, setCopied] = useState(false);
 
   async function makeRoom() {
+    if (!online) {
+      setError(OFFLINE_MESSAGE);
+      return;
+    }
     setBusy(true);
     setError("");
     try {
@@ -23,6 +31,14 @@ export function Home() {
     } finally {
       setBusy(false);
     }
+  }
+
+  function openJoin() {
+    if (!online) {
+      setError(OFFLINE_MESSAGE);
+      return;
+    }
+    nav("/join");
   }
 
   async function copy() {
@@ -65,11 +81,17 @@ export function Home() {
               <UsersIcon />
               لعب فردي
             </button>
-            <button type="button" className="btn btn--lg btn--ghost" onClick={() => nav("/join")}>
+            <button type="button" className="btn btn--lg btn--ghost" onClick={openJoin}>
               انضم كلاعب
               <ArrowIcon />
             </button>
           </div>
+
+          {!online && (
+            <p className="home__offline" role="note">
+              الأونلاين محتاج سيرفر مش منشور على النسخة دي — استخدم <b>«لعب فردي»</b>.
+            </p>
+          )}
 
           <p className="muted home__cta-note">
             <b>«لعب فردي»</b> يعني طاولة على تليفون واحد — الحكم بيدخل اللاعبين بنفسه ويحسب النقط والكروت من نفس الشاشة.
