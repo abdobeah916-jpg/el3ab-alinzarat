@@ -882,12 +882,38 @@ const hardBank = {
   ],
 };
 
+const TRIVIAL = new Set([
+  "كم عدد أيام الأسبوع؟",
+  "كم عدد أشهر السنة؟",
+  "كم عدد دقائق الساعة؟",
+  "كم عدد حروف الأبجدية العربية؟",
+  "كم عدد أضلاع الشكل السداسي؟",
+  "كم عدد أيام شهر فبراير في السنة الكبيسة؟",
+  "كم عدد أسنان الإنسان البالغ؟",
+  "ما اللون الناتج عن خلط الأزرق والأصفر؟",
+  "ما اسم الجهاز المستخدم لقياس درجة الحرارة؟",
+  "كم عدد قارات العالم؟",
+  "كم عدد ألوان قوس قزح؟",
+  "كم عدد أيام السنة الكبيسة؟",
+  "أي من التالي ليس من أيام الأسبوع؟",
+  "كم عدد أضلاع المثلث؟",
+  "الشمس نجم.",
+  "القمر كوكب.",
+  "الماء يتجمد عند صفر درجة مئوية.",
+  "العنكبوت حشرة.",
+  "الخفاش من الثدييات.",
+  "خط الاستواء يقسم الأرض إلى نصفين.",
+  "القطب الشمالي أبرد من القطب الجنوبي.",
+  "اللغة العربية تُكتب من اليمين إلى اليسار.",
+]);
 const mergedBank = {};
 for (const cat of Object.keys(bank)) {
-  mergedBank[cat] = [...bank[cat], ...(hardBank[cat] || [])];
+  const filtered = [...bank[cat], ...(hardBank[cat] || [])].filter((it) => !TRIVIAL.has(it.text));
+  const seen = new Set();
+  mergedBank[cat] = filtered.filter((it) => { if (seen.has(it.text)) return false; seen.add(it.text); return true; });
 }
 
-const difficultyCycle = ["easy", "medium", "hard"];
+const difficultyCycle = ["medium", "hard", "hard"];
 
 function shuffleOptions(options, seed) {
   const arr = [...options];
