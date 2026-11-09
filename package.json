@@ -12,6 +12,7 @@
     "dev:web": "pnpm --filter @casino/web dev",
     "dev:server": "pnpm --filter @casino/server dev",
     "build": "pnpm -r build",
+    "deploy:vercel": "pnpm --filter @casino/web build && node scripts/vercel-prebuilt.mjs",
     "test": "pnpm -r test",
     "lint": "pnpm -r lint"
   }
