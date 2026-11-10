@@ -42,7 +42,12 @@ async function main() {
 
   const server = createServer(app);
   const origins = (process.env.CORS_ORIGIN ?? "").split(",").map((s) => s.trim()).filter(Boolean);
-  const io = new Server(server, origins.length && !origins.includes("*") ? { cors: { origin: origins } } : {});
+  // Socket.IO needs its own CORS config (it does not reuse the express one).
+  // Without it a cross-origin client (e.g. the Vercel static build talking to
+  // this server) gets no Access-Control-Allow-Origin and polling never connects.
+  const io = new Server(server, {
+    cors: { origin: origins.length && !origins.includes("*") ? origins : true },
+  });
   attachSocket(io, { commands, rooms, store });
 
   const port = Number(process.env.PORT ?? "3000");

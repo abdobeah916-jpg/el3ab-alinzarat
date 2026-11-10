@@ -1,4 +1,5 @@
-import { Routes, Route, Navigate } from "react-router-dom";
+import { useMemo } from "react";
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Join } from "./pages/Join";
 import { Lobby } from "./pages/Lobby";
@@ -12,7 +13,12 @@ import { LocalRoom } from "./pages/LocalRoom";
 import { loadSession } from "./lib/tokenStore";
 
 export function Router() {
-  const session = loadSession();
+  // Re-read the stored session on every navigation. Reading it once at mount
+  // meant "/room/:code" bounced straight back to "/join" right after joining,
+  // because the guard still saw the session from before the join.
+  const location = useLocation();
+  const session = useMemo(() => loadSession(), [location.key, location.pathname]);
+
   return (
     <Routes>
       <Route path="/" element={<Home />} />
