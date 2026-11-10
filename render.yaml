@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: casino-el3ab
+    runtime: node
+    plan: free
+    region: frankfurt
+    # One service for everything: Express API + Socket.IO + the built SPA.
+    buildCommand: npm install -g pnpm@9.12.0 && pnpm install --frozen-lockfile --prod=false && pnpm --filter @casino/web build
+    startCommand: node --import tsx packages/server/src/index.ts
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
+      - key: TOKEN_SECRET
+        generateValue: true
+      - key: ADMIN_KEY
+        generateValue: true
+      # Auth uses bearer tokens (no cookies), so the API accepts the Vercel
+      # origin too. Uncomment to lock it down to one domain later.
+      # - key: CORS_ORIGIN
+      #   value: https://el3ab-alinzarat.vercel.app

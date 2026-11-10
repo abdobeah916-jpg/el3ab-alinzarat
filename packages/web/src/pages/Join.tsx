@@ -1,7 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { joinRoom } from "../lib/api";
-import { onlineEnabled } from "../lib/api";
+import { joinRoom, onlineEnabled, warmUpServer } from "../lib/api";
 import { saveSession, loadSession } from "../lib/tokenStore";
 import { ArrowIcon, BellIcon, UsersIcon } from "../components/icons";
 
@@ -14,6 +13,10 @@ export function Join() {
   const [name, setName] = useState("");
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    warmUpServer();
+  }, []);
 
   async function submit() {
     if (!online) {
@@ -28,7 +31,9 @@ export function Join() {
       saveSession({ role: "player", code: clean, token: data.playerToken, playerId: data.playerId });
       nav(`/room/${clean}`);
     } catch (e: any) {
-      setError(e.code === "room_full" ? "الغرفة مليانة — ٣ لاعبين بالكتير." : "الكود غلط أو الاسم مستخدم.");
+      if (e?.code === "room_full") setError("الغرفة مليانة — ٣ لاعبين بالكتير.");
+      else if (e?.code) setError("الكود غلط أو الاسم مستخدم.");
+      else setError("مش عارفين نوصل للسيرفر. جرّب تاني بعد لحظة.");
     } finally {
       setBusy(false);
     }

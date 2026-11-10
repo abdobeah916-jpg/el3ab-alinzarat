@@ -1,7 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { createRoom } from "../lib/api";
-import { onlineEnabled } from "../lib/api";
+import { createRoom, onlineEnabled, warmUpServer } from "../lib/api";
 import { saveSession } from "../lib/tokenStore";
 import { BellIcon, ChipIcon, ArrowIcon, CopyIcon, UsersIcon } from "../components/icons";
 
@@ -15,6 +14,11 @@ export function Home() {
   const [error, setError] = useState("");
   const [copied, setCopied] = useState(false);
 
+  // Free hosting sleeps when idle: start waking it while the player reads.
+  useEffect(() => {
+    warmUpServer();
+  }, []);
+
   async function makeRoom() {
     if (!online) {
       setError(OFFLINE_MESSAGE);
@@ -27,7 +31,7 @@ export function Home() {
       saveSession({ role: "judge", code: data.roomCode, token: data.judgeToken });
       setRoom({ code: data.roomCode, recovery: data.judgeRecoveryCode });
     } catch {
-      setError("معرفناش نعمل غرفة، جرّب تاني.");
+      setError("معرفناش نعمل غرفة. لو دي أول مرة النهاردة، السيرفر بيصحى وبياخد لحد دقيقة — جرّب تاني.");
     } finally {
       setBusy(false);
     }
