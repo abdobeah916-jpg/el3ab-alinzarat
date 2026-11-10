@@ -6,7 +6,7 @@ services:
     region: frankfurt
     # One service for everything: Express API + Socket.IO + the built SPA.
     buildCommand: npm install -g pnpm@9.12.0 && pnpm install --frozen-lockfile --prod=false && pnpm --filter @casino/web build
-    startCommand: node --import tsx packages/server/src/index.ts
+    startCommand: cd packages/server && node --import tsx src/index.ts
     healthCheckPath: /api/health
     autoDeploy: true
     envVars:
