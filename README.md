@@ -16,6 +16,34 @@ pnpm --filter @casino/web dev
 curl http://localhost:3000/api/health
 ```
 
+## تشغيل الأونلاين في الإنتاج (Render مجاني)
+
+الأونلاين محتاج السيرفر (`packages/server`) شغال على لينك عام. الخدمة الواحدة بتقدّم الواجهة + الـ API + Socket.IO من نفس الأصل، فمفيش أي إعداد CORS مطلوب.
+
+1. افتح: <https://render.com/deploy?repo=https://github.com/abdobeah916-jpg/el3ab-alinzarat>
+2. سجّل دخول بـ GitHub واسمح بالريبو، ثم **Apply**. الخطة `free` من `render.yaml` — بدون كارت.
+3. بعد ما يخلص البيلد، الرابط (`https://<name>.onrender.com`) بيفتح اللعبة كاملة:
+   - `POST /api/rooms` لإنشاء غرفة
+   - `GET /api/health` للفحص
+   - Socket.IO على نفس الأصل
+4. لو عايز نسخة Vercel (واجهة استاتيكية) تتصل بالسيرفر ده:
+
+```powershell
+$env:VITE_API_BASE = "https://<name>.onrender.com"; pnpm deploy:vercel
+```
+
+بدون `VITE_API_BASE` نسخة Vercel بتفضل «لعب فردي» بس، لأنها واجهة من غير باك إند.
+
+### اختبار الأونلاين من الطرفية
+
+```bash
+BASE=https://<name>.onrender.com node packages/web/scripts/online-smoke.mjs
+```
+
+السكريبت بيعمل غرفة، يضمّ لاعبين، يختار كروت، يبدأ جولة، يفتح الجرس، يضغط لاعب، يصحّح، ويتأكد إن النقط اتحدثت وإن الإجابة مش مسرّبة للاعبين.
+
+ملاحظة: خطة Render المجانية بتنام بعد ١٥ دقيقة خمول، وأول طلب بعد النوم بياخد لحد دقيقة. الواجهة بتعمل ping مبكر عشان تصحّي السيرفر قبل ما اللاعب يدوس.
+
 ## النشر على Railway
 
 1. أنشئ خدمة جديدة من الريبو ده واختار `Dockerfile`.
